@@ -42,8 +42,13 @@ header h1 {
   padding: 1rem;
 }
 
+h2 {
+  margin-top: 0;
+}
+
 table {
-  width: 100%;
+  width: 50%;
+  min-width: 280px;
   border-collapse: collapse;
 }
 
