@@ -32,7 +32,7 @@
     "url": "https://givingday.cornell.edu/campaigns/cu-app-development"
   },
   {
-    "name": "AUV",
+    "name": "CUAUV",
     "url": "https://givingday.cornell.edu/campaigns/cuauv"
   },
   {
@@ -50,5 +50,77 @@
   {
     "name": "CRC",
     "url": "https://givingday.cornell.edu/campaigns/combat-robotics"
+  },
+  {
+    "name": "iGEM",
+    "url": "https://givingday.cornell.edu/campaigns/cornell-igem"
+  },
+  {
+    "name": "ESW",
+    "url": "https://givingday.cornell.edu/campaigns/cu-engineers-for-a-sustainable-world"
+  },
+  {
+    "name": "EIA",
+    "url": "https://givingday.cornell.edu/campaigns/cu-engineers-in-action"
+  },
+  {
+    "name": "Geodata",
+    "url": "https://givingday.cornell.edu/campaigns/cu-geodata"
+  },
+  {
+    "name": "Concrete Canoe",
+    "url": "https://givingday.cornell.edu/campaigns/cu-concrete-canoe"
+  },
+  {
+    "name": "C2S2",
+    "url": "https://givingday.cornell.edu/campaigns/cornell-custom-silicon-systems"
+  },
+  {
+    "name": "Steel Bridge",
+    "url": "https://givingday.cornell.edu/campaigns/cu-steel-bridge"
+  },
+  {
+    "name": "AguaClara",
+    "url": "https://givingday.cornell.edu/campaigns/cu-agua-clara"
+  },
+  {
+    "name": "Hyperloop",
+    "url": "https://givingday.cornell.edu/campaigns/cu-hyperloop"
+  },
+  {
+    "name": "Engineering World Health",
+    "url": "https://givingday.cornell.edu/campaigns/cu-engineering-world-health"
+  },
+  {
+    "name": "CUSail",
+    "url": "https://givingday.cornell.edu/campaigns/cu-sail"
+  },
+  {
+    "name": "AutoBoat",
+    "url": "https://givingday.cornell.edu/campaigns/cornell-auto-boat"
+  },
+  {
+    "name": "Biomedical Device",
+    "url": "https://givingday.cornell.edu/campaigns/cornell-biomedical-device"
+  },
+  {
+    "name": "SensTech",
+    "url": "https://givingday.cornell.edu/campaigns/senstech"
+  },
+  {
+    "name": "Nexus",
+    "url": "https://givingday.cornell.edu/campaigns/cornell-nexus"
+  },
+  {
+    "name": "Seismic Design",
+    "url": "https://givingday.cornell.edu/campaigns/cu-eeri-seismic-design"
+  },
+  {
+    "name": "DEBUT",
+    "url": "https://givingday.cornell.edu/campaigns/design-by-biomedical-ug-teams-debut"
+  },
+  {
+    "name": "Assistive Technologies",
+    "url": "https://givingday.cornell.edu/campaigns/cornell-assistive-technologies"
   }
 ]
