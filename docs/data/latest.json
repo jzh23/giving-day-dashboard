@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-03-12T23:28:45+00:00",
+  "updated_at": "2026-03-12T23:45:44+00:00",
   "teams": [
     {
       "id": "cornell-fsae",
       "name": "FSAE",
       "url": "https://givingday.cornell.edu/campaigns/cornell-fsae",
-      "raised_cents": 1135660,
-      "raised_display": "$11,356.60"
+      "raised_cents": 1145660,
+      "raised_display": "$11,456.60"
     },
     {
       "id": "cornell-electric-vehicles",
       "name": "CEV",
       "url": "https://givingday.cornell.edu/campaigns/cornell-electric-vehicles",
-      "raised_cents": 1516576,
-      "raised_display": "$15,165.76"
+      "raised_cents": 1526576,
+      "raised_display": "$15,265.76"
     },
     {
       "id": "cu-baja-sae-racing-team",
       "name": "Baja",
       "url": "https://givingday.cornell.edu/campaigns/cu-baja-sae-racing-team",
-      "raised_cents": 727100,
-      "raised_display": "$7,271.00"
+      "raised_cents": 833600,
+      "raised_display": "$8,336.00"
     },
     {
       "id": "cornell-digital-tech-innovation",
@@ -33,15 +33,15 @@
       "id": "cornell-rocketry-team",
       "name": "Rocketry",
       "url": "https://givingday.cornell.edu/campaigns/cornell-rocketry-team",
-      "raised_cents": 529900,
-      "raised_display": "$5,299.00"
+      "raised_cents": 534400,
+      "raised_display": "$5,344.00"
     },
     {
       "id": "cu-mars-rover",
       "name": "Mars Rover",
       "url": "https://givingday.cornell.edu/campaigns/cu-mars-rover",
-      "raised_cents": 258200,
-      "raised_display": "$2,582.00"
+      "raised_cents": 265900,
+      "raised_display": "$2,659.00"
     },
     {
       "id": "cu-air",
@@ -54,15 +54,15 @@
       "id": "cu-app-development",
       "name": "AppDev",
       "url": "https://givingday.cornell.edu/campaigns/cu-app-development",
-      "raised_cents": 327400,
-      "raised_display": "$3,274.00"
+      "raised_cents": 438101,
+      "raised_display": "$4,381.01"
     },
     {
       "id": "cuauv",
       "name": "CUAUV",
       "url": "https://givingday.cornell.edu/campaigns/cuauv",
-      "raised_cents": 254567,
-      "raised_display": "$2,545.67"
+      "raised_cents": 264567,
+      "raised_display": "$2,645.67"
     },
     {
       "id": "autonomous-drone-cuad-gift",
@@ -82,22 +82,22 @@
       "id": "design-build-fly",
       "name": "DBF",
       "url": "https://givingday.cornell.edu/campaigns/design-build-fly",
-      "raised_cents": 223500,
-      "raised_display": "$2,235.00"
+      "raised_cents": 233500,
+      "raised_display": "$2,335.00"
     },
     {
       "id": "combat-robotics",
       "name": "CRC",
       "url": "https://givingday.cornell.edu/campaigns/combat-robotics",
-      "raised_cents": 285097,
-      "raised_display": "$2,850.97"
+      "raised_cents": 290797,
+      "raised_display": "$2,907.97"
     },
     {
       "id": "cornell-igem",
       "name": "iGEM",
       "url": "https://givingday.cornell.edu/campaigns/cornell-igem",
-      "raised_cents": 229420,
-      "raised_display": "$2,294.20"
+      "raised_cents": 230420,
+      "raised_display": "$2,304.20"
     },
     {
       "id": "cu-engineers-for-a-sustainable-world",
@@ -145,8 +145,8 @@
       "id": "cu-agua-clara",
       "name": "AguaClara",
       "url": "https://givingday.cornell.edu/campaigns/cu-agua-clara",
-      "raised_cents": 813200,
-      "raised_display": "$8,132.00"
+      "raised_cents": 818200,
+      "raised_display": "$8,182.00"
     },
     {
       "id": "cu-hyperloop",
@@ -159,8 +159,8 @@
       "id": "cu-engineering-world-health",
       "name": "Engineering World Health",
       "url": "https://givingday.cornell.edu/campaigns/cu-engineering-world-health",
-      "raised_cents": 182000,
-      "raised_display": "$1,820.00"
+      "raised_cents": 183500,
+      "raised_display": "$1,835.00"
     },
     {
       "id": "cu-sail",
@@ -180,8 +180,8 @@
       "id": "cornell-biomedical-device",
       "name": "Biomedical Device",
       "url": "https://givingday.cornell.edu/campaigns/cornell-biomedical-device",
-      "raised_cents": 191600,
-      "raised_display": "$1,916.00"
+      "raised_cents": 193600,
+      "raised_display": "$1,936.00"
     },
     {
       "id": "senstech",
@@ -194,8 +194,8 @@
       "id": "cornell-nexus",
       "name": "Nexus",
       "url": "https://givingday.cornell.edu/campaigns/cornell-nexus",
-      "raised_cents": 561500,
-      "raised_display": "$5,615.00"
+      "raised_cents": 581500,
+      "raised_display": "$5,815.00"
     },
     {
       "id": "cu-eeri-seismic-design",
