@@ -26,5 +26,29 @@
   {
     "name": "CUAir",
     "url": "https://givingday.cornell.edu/campaigns/cu-air"
+  },
+  {
+    "name": "AppDev",
+    "url": "https://givingday.cornell.edu/campaigns/cu-app-development"
+  },
+  {
+    "name": "AUV",
+    "url": "https://givingday.cornell.edu/campaigns/cuauv"
+  },
+  {
+    "name": "CUAD",
+    "url": "https://givingday.cornell.edu/campaigns/autonomous-drone-cuad-gift"
+  },
+  {
+    "name": "CDS",
+    "url": "https://givingday.cornell.edu/campaigns/cornell-data-science"
+  },
+  {
+    "name": "DBF",
+    "url": "https://givingday.cornell.edu/campaigns/design-build-fly"
+  },
+  {
+    "name": "CRC",
+    "url": "https://givingday.cornell.edu/campaigns/combat-robotics"
   }
 ]
