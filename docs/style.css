@@ -42,6 +42,10 @@ header h1 {
   padding: 1rem;
 }
 
+.totals-panel {
+  width: fit-content;
+}
+
 h2 {
   margin-top: 0;
 }
@@ -70,6 +74,10 @@ a {
 }
 
 @media (max-width: 700px) {
+  .totals-panel {
+    width: 100%;
+  }
+
   .panel {
     padding: 0.75rem;
   }
