@@ -1,33 +1,33 @@
 {
-  "updated_at": "2026-03-12T20:40:27+00:00",
+  "updated_at": "2026-03-12T20:55:47+00:00",
   "teams": [
     {
       "id": "cornell-fsae",
       "name": "FSAE",
       "url": "https://givingday.cornell.edu/campaigns/cornell-fsae",
-      "raised_cents": 967560,
-      "raised_display": "$9,675.60"
+      "raised_cents": 988060,
+      "raised_display": "$9,880.60"
     },
     {
       "id": "cornell-electric-vehicles",
       "name": "CEV",
       "url": "https://givingday.cornell.edu/campaigns/cornell-electric-vehicles",
-      "raised_cents": 942876,
-      "raised_display": "$9,428.76"
+      "raised_cents": 948876,
+      "raised_display": "$9,488.76"
     },
     {
       "id": "cu-baja-sae-racing-team",
       "name": "Baja",
       "url": "https://givingday.cornell.edu/campaigns/cu-baja-sae-racing-team",
-      "raised_cents": 561600,
-      "raised_display": "$5,616.00"
+      "raised_cents": 562100,
+      "raised_display": "$5,621.00"
     },
     {
       "id": "cornell-digital-tech-innovation",
       "name": "DTI",
       "url": "https://givingday.cornell.edu/campaigns/cornell-digital-tech-innovation",
-      "raised_cents": 486881,
-      "raised_display": "$4,868.81"
+      "raised_cents": 487381,
+      "raised_display": "$4,873.81"
     },
     {
       "id": "cornell-rocketry-team",
