@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Giving Day Dashboard</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>Giving Day Dashboard</h1>
+        <p id="updated-at">Last update: loading...</p>
+      </header>
+
+      <section class="panel">
+        <h2>Latest Totals</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Team</th>
+              <th>Amount Raised</th>
+              <th>Campaign</th>
+            </tr>
+          </thead>
+          <tbody id="totals-body"></tbody>
+        </table>
+      </section>
+
+      <section class="panel chart-panel">
+        <h2>History</h2>
+        <canvas id="history-chart" aria-label="history chart"></canvas>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>

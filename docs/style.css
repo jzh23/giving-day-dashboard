@@ -1,0 +1,75 @@
+:root {
+  --bg: #f4f6fb;
+  --panel: #ffffff;
+  --text: #13213a;
+  --muted: #5d6b86;
+  --border: #dbe2ef;
+  --accent: #1363df;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top, #eaf0ff, var(--bg));
+  color: var(--text);
+}
+
+.container {
+  width: min(1000px, 94vw);
+  margin: 2rem auto;
+  display: grid;
+  gap: 1rem;
+}
+
+header h1 {
+  margin-bottom: 0.25rem;
+}
+
+#updated-at {
+  margin-top: 0;
+  color: var(--muted);
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+thead th {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.chart-panel {
+  min-height: 360px;
+}
+
+@media (max-width: 700px) {
+  th:nth-child(3),
+  td:nth-child(3) {
+    display: none;
+  }
+}

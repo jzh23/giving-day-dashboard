@@ -1,0 +1,26 @@
+[
+  {
+    "name": "FSAE",
+    "url": "https://givingday.cornell.edu/campaigns/cornell-fsae"
+  },
+  {
+    "name": "CEV",
+    "url": "https://givingday.cornell.edu/campaigns/cornell-electric-vehicles"
+  },
+  {
+    "name": "Baja",
+    "url": "https://givingday.cornell.edu/campaigns/cu-baja-sae-racing-team"
+  },
+  {
+    "name": "DTI",
+    "url": "https://givingday.cornell.edu/campaigns/cornell-digital-tech-innovation"
+  },
+  {
+    "name": "Rocketry",
+    "url": "https://givingday.cornell.edu/campaigns/cornell-rocketry-team"
+  },
+  {
+    "name": "Mars Rover",
+    "url": "https://givingday.cornell.edu/campaigns/cu-mars-rover"
+  }
+]
