@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-12T22:56:16+00:00",
+  "updated_at": "2026-03-12T22:57:52+00:00",
   "teams": [
     {
       "id": "cornell-fsae",
@@ -12,8 +12,8 @@
       "id": "cornell-electric-vehicles",
       "name": "CEV",
       "url": "https://givingday.cornell.edu/campaigns/cornell-electric-vehicles",
-      "raised_cents": 1484076,
-      "raised_display": "$14,840.76"
+      "raised_cents": 1494076,
+      "raised_display": "$14,940.76"
     },
     {
       "id": "cu-baja-sae-racing-team",
@@ -47,8 +47,8 @@
       "id": "cu-air",
       "name": "CUAir",
       "url": "https://givingday.cornell.edu/campaigns/cu-air",
-      "raised_cents": 1278200,
-      "raised_display": "$12,782.00"
+      "raised_cents": 1278700,
+      "raised_display": "$12,787.00"
     },
     {
       "id": "cu-app-development",
