@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 import re
+import sys
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -16,6 +17,7 @@ LATEST_FILE = DATA_DIR / "latest.json"
 HISTORY_FILE = DATA_DIR / "history.json"
 
 MONEY_PATTERN = re.compile(r"\$\s*([0-9]{1,3}(?:,[0-9]{3})*(?:\.[0-9]{2})?|[0-9]+(?:\.[0-9]{2})?)")
+NUMBER_PATTERN = re.compile(r"([0-9]{1,3}(?:,[0-9]{3})+|[0-9]+)(?:\.([0-9]{1,2}))?")
 
 
 @dataclass
@@ -53,6 +55,72 @@ def parse_money_to_cents(text: str) -> Optional[int]:
     return int(round(float(amount) * 100))
 
 
+def parse_amount_to_cents(text: str) -> Optional[int]:
+    match = NUMBER_PATTERN.search(text)
+    if not match:
+        return None
+
+    dollars = int(match.group(1).replace(",", ""))
+    cents_part = match.group(2)
+    if cents_part is None:
+        cents = 0
+    elif len(cents_part) == 1:
+        cents = int(cents_part) * 10
+    else:
+        cents = int(cents_part[:2])
+    return dollars * 100 + cents
+
+
+def extract_support_area_json(html: str) -> Optional[dict[str, Any]]:
+    marker = "var support_area = new app.Campaign("
+    start = html.find(marker)
+    if start == -1:
+        return None
+
+    i = start + len(marker)
+    while i < len(html) and html[i].isspace():
+        i += 1
+    if i >= len(html) or html[i] != "{":
+        return None
+
+    depth = 0
+    in_string = False
+    escape = False
+    obj_start = i
+    for j in range(i, len(html)):
+        ch = html[j]
+        if in_string:
+            if escape:
+                escape = False
+            elif ch == "\\":
+                escape = True
+            elif ch == '"':
+                in_string = False
+            continue
+
+        if ch == '"':
+            in_string = True
+            continue
+        if ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth == 0:
+                raw = html[obj_start : j + 1]
+                try:
+                    return json.loads(raw)
+                except json.JSONDecodeError:
+                    return None
+    return None
+
+
+def extract_stats_api_url(html: str) -> Optional[str]:
+    match = re.search(r"ggStatsApiUrl:\s*'([^']+)'", html)
+    if not match:
+        return None
+    return match.group(1)
+
+
 def extract_raised_cents(html: str) -> Optional[int]:
     soup = BeautifulSoup(html, "html.parser")
 
@@ -64,9 +132,22 @@ def extract_raised_cents(html: str) -> Optional[int]:
             continue
         if label_node.get_text(" ", strip=True).lower() != "raised":
             continue
-        cents = parse_money_to_cents(value_node.get_text(" ", strip=True))
+        value_text = value_node.get_text(" ", strip=True)
+        cents = parse_money_to_cents(value_text)
+        if cents is None:
+            cents = parse_amount_to_cents(value_text)
         if cents is not None:
             return cents
+
+    support_area = extract_support_area_json(html)
+    if isinstance(support_area, dict):
+        maybe_cents = support_area.get("total_amount_raised")
+        if isinstance(maybe_cents, (int, float)):
+            return int(maybe_cents)
+
+    match = re.search(r'"total_amount_raised"\s*:\s*([0-9]+)', html)
+    if match:
+        return int(match.group(1))
 
     text_nodes = soup.find_all(string=True)
     for node in text_nodes:
@@ -100,15 +181,44 @@ def fetch_team(team: dict[str, Any], timeout_sec: int = 20) -> TeamResult:
     import requests
 
     team_id = campaign_id_from_url(team["url"])
+    headers = {
+        "User-Agent": "Mozilla/5.0 (compatible; giving-day-dashboard/1.0)",
+        "Accept": "text/html,application/xhtml+xml",
+    }
     response = requests.get(
         team["url"],
         timeout=timeout_sec,
-        headers={
-            "User-Agent": "Mozilla/5.0 (compatible; giving-day-dashboard/1.0)",
-            "Accept": "text/html,application/xhtml+xml",
-        },
+        headers=headers,
     )
     response.raise_for_status()
+
+    support_area = extract_support_area_json(response.text)
+    stats_api_url = extract_stats_api_url(response.text)
+    if (
+        isinstance(support_area, dict)
+        and isinstance(support_area.get("id"), int)
+        and isinstance(stats_api_url, str)
+        and stats_api_url
+    ):
+        stats_url = f"{stats_api_url.rstrip('/')}/v1/campaigns/{support_area['id']}/stats"
+        stats_resp = requests.get(
+            stats_url,
+            timeout=timeout_sec,
+            params={"with": "goal,percent_raised"},
+            headers={"User-Agent": headers["User-Agent"], "Accept": "application/json"},
+        )
+        stats_resp.raise_for_status()
+        stats_payload = stats_resp.json()
+        total_amount_raised = stats_payload.get("total_amount_raised")
+        if isinstance(total_amount_raised, (int, float)):
+            cents = int(total_amount_raised)
+            return TeamResult(
+                id=team_id,
+                name=team["name"],
+                url=team["url"],
+                raised_cents=cents,
+                raised_display=cents_to_display(cents),
+            )
 
     cents = extract_raised_cents(response.text)
     if cents is None:
@@ -179,7 +289,13 @@ def main() -> None:
 
     results = []
     for campaign in campaigns:
-        results.append(fetch_team(campaign))
+        try:
+            results.append(fetch_team(campaign))
+        except Exception as exc:
+            print(f"Warning: {exc}", file=sys.stderr)
+
+    if not results:
+        raise SystemExit("Failed to scrape all campaigns")
 
     update_latest(now_iso, results)
     update_history(now_iso, results)

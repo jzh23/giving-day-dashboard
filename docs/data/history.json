@@ -1,4 +1,77 @@
 {
-  "updated_at": null,
-  "teams": []
+  "updated_at": "2026-03-12T20:40:27+00:00",
+  "teams": [
+    {
+      "id": "cornell-fsae",
+      "name": "FSAE",
+      "url": "https://givingday.cornell.edu/campaigns/cornell-fsae",
+      "points": [
+        {
+          "ts": "2026-03-12T20:40:27+00:00",
+          "raised_cents": 967560,
+          "raised_display": "$9,675.60"
+        }
+      ]
+    },
+    {
+      "id": "cornell-electric-vehicles",
+      "name": "CEV",
+      "url": "https://givingday.cornell.edu/campaigns/cornell-electric-vehicles",
+      "points": [
+        {
+          "ts": "2026-03-12T20:40:27+00:00",
+          "raised_cents": 942876,
+          "raised_display": "$9,428.76"
+        }
+      ]
+    },
+    {
+      "id": "cu-baja-sae-racing-team",
+      "name": "Baja",
+      "url": "https://givingday.cornell.edu/campaigns/cu-baja-sae-racing-team",
+      "points": [
+        {
+          "ts": "2026-03-12T20:40:27+00:00",
+          "raised_cents": 561600,
+          "raised_display": "$5,616.00"
+        }
+      ]
+    },
+    {
+      "id": "cornell-digital-tech-innovation",
+      "name": "DTI",
+      "url": "https://givingday.cornell.edu/campaigns/cornell-digital-tech-innovation",
+      "points": [
+        {
+          "ts": "2026-03-12T20:40:27+00:00",
+          "raised_cents": 486881,
+          "raised_display": "$4,868.81"
+        }
+      ]
+    },
+    {
+      "id": "cornell-rocketry-team",
+      "name": "Rocketry",
+      "url": "https://givingday.cornell.edu/campaigns/cornell-rocketry-team",
+      "points": [
+        {
+          "ts": "2026-03-12T20:40:27+00:00",
+          "raised_cents": 439400,
+          "raised_display": "$4,394.00"
+        }
+      ]
+    },
+    {
+      "id": "cu-mars-rover",
+      "name": "Mars Rover",
+      "url": "https://givingday.cornell.edu/campaigns/cu-mars-rover",
+      "points": [
+        {
+          "ts": "2026-03-12T20:40:27+00:00",
+          "raised_cents": 249700,
+          "raised_display": "$2,497.00"
+        }
+      ]
+    }
+  ]
 }
