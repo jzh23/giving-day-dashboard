@@ -1,4 +1,4 @@
-name: Update Giving Day Data
+name: update giving day data
 
 on:
   schedule:

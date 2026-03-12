@@ -21,7 +21,6 @@
             <tr>
               <th>Team</th>
               <th>Amount Raised</th>
-              <th>Campaign</th>
             </tr>
           </thead>
           <tbody id="totals-body"></tbody>
@@ -30,7 +29,9 @@
 
       <section class="panel chart-panel">
         <h2>History</h2>
-        <canvas id="history-chart" aria-label="history chart"></canvas>
+        <div class="chart-wrap">
+          <canvas id="history-chart" aria-label="history chart"></canvas>
+        </div>
       </section>
     </main>
     <script src="./app.js"></script>

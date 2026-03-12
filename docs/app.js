@@ -30,7 +30,6 @@ function renderTable(teams) {
     tr.innerHTML = `
       <td>${team.name}</td>
       <td>${latest ? latest.raised_display : "N/A"}</td>
-      <td><a href="${team.url}" target="_blank" rel="noopener noreferrer">Open</a></td>
     `;
     body.appendChild(tr);
   }
@@ -55,7 +54,9 @@ function renderChart(teams) {
     type: "line",
     data: { labels, datasets },
     options: {
+      responsive: true,
       maintainAspectRatio: false,
+      animation: false,
       scales: {
         y: {
           ticks: {
