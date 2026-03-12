@@ -1,68 +1,68 @@
 {
-  "updated_at": "2026-03-12T21:57:47+00:00",
+  "updated_at": "2026-03-12T22:31:09+00:00",
   "teams": [
     {
       "id": "cornell-fsae",
       "name": "FSAE",
       "url": "https://givingday.cornell.edu/campaigns/cornell-fsae",
-      "raised_cents": 1033060,
-      "raised_display": "$10,330.60"
+      "raised_cents": 1053560,
+      "raised_display": "$10,535.60"
     },
     {
       "id": "cornell-electric-vehicles",
       "name": "CEV",
       "url": "https://givingday.cornell.edu/campaigns/cornell-electric-vehicles",
-      "raised_cents": 1224476,
-      "raised_display": "$12,244.76"
+      "raised_cents": 1287476,
+      "raised_display": "$12,874.76"
     },
     {
       "id": "cu-baja-sae-racing-team",
       "name": "Baja",
       "url": "https://givingday.cornell.edu/campaigns/cu-baja-sae-racing-team",
-      "raised_cents": 652100,
-      "raised_display": "$6,521.00"
+      "raised_cents": 692600,
+      "raised_display": "$6,926.00"
     },
     {
       "id": "cornell-digital-tech-innovation",
       "name": "DTI",
       "url": "https://givingday.cornell.edu/campaigns/cornell-digital-tech-innovation",
-      "raised_cents": 492981,
-      "raised_display": "$4,929.81"
+      "raised_cents": 504481,
+      "raised_display": "$5,044.81"
     },
     {
       "id": "cornell-rocketry-team",
       "name": "Rocketry",
       "url": "https://givingday.cornell.edu/campaigns/cornell-rocketry-team",
-      "raised_cents": 484400,
-      "raised_display": "$4,844.00"
+      "raised_cents": 529900,
+      "raised_display": "$5,299.00"
     },
     {
       "id": "cu-mars-rover",
       "name": "Mars Rover",
       "url": "https://givingday.cornell.edu/campaigns/cu-mars-rover",
-      "raised_cents": 255700,
-      "raised_display": "$2,557.00"
+      "raised_cents": 258200,
+      "raised_display": "$2,582.00"
     },
     {
       "id": "cu-air",
       "name": "CUAir",
       "url": "https://givingday.cornell.edu/campaigns/cu-air",
-      "raised_cents": 1262700,
-      "raised_display": "$12,627.00"
+      "raised_cents": 1263200,
+      "raised_display": "$12,632.00"
     },
     {
       "id": "cu-app-development",
       "name": "AppDev",
       "url": "https://givingday.cornell.edu/campaigns/cu-app-development",
-      "raised_cents": 312300,
-      "raised_display": "$3,123.00"
+      "raised_cents": 324900,
+      "raised_display": "$3,249.00"
     },
     {
       "id": "cuauv",
       "name": "AUV",
       "url": "https://givingday.cornell.edu/campaigns/cuauv",
-      "raised_cents": 153000,
-      "raised_display": "$1,530.00"
+      "raised_cents": 253000,
+      "raised_display": "$2,530.00"
     },
     {
       "id": "autonomous-drone-cuad-gift",
@@ -75,8 +75,8 @@
       "id": "cornell-data-science",
       "name": "CDS",
       "url": "https://givingday.cornell.edu/campaigns/cornell-data-science",
-      "raised_cents": 141500,
-      "raised_display": "$1,415.00"
+      "raised_cents": 142500,
+      "raised_display": "$1,425.00"
     },
     {
       "id": "design-build-fly",
@@ -89,8 +89,8 @@
       "id": "combat-robotics",
       "name": "CRC",
       "url": "https://givingday.cornell.edu/campaigns/combat-robotics",
-      "raised_cents": 282097,
-      "raised_display": "$2,820.97"
+      "raised_cents": 282597,
+      "raised_display": "$2,825.97"
     }
   ]
 }
