@@ -16,17 +16,13 @@ body {
   font-family: "Avenir Next", "Segoe UI", sans-serif;
   background: radial-gradient(circle at top, #eaf0ff, var(--bg));
   color: var(--text);
-  height: 100vh;
-  overflow: hidden;
 }
 
 .container {
   width: min(1000px, 94vw);
-  height: 100vh;
-  margin: 0 auto;
-  padding: 0.75rem 0;
+  margin: 1rem auto;
+  padding: 0 0 1rem;
   display: grid;
-  grid-template-rows: auto auto auto;
   gap: 1rem;
 }
 
@@ -54,7 +50,7 @@ table {
 th,
 td {
   text-align: left;
-  padding: 0.55rem 0.75rem;
+  padding: 0.6rem 0.75rem;
   border-bottom: 1px solid var(--border);
 }
 
@@ -68,32 +64,8 @@ a {
   text-decoration: none;
 }
 
-.chart-panel {
-  padding-bottom: 0.75rem;
-}
-
-.chart-wrap {
-  position: relative;
-  height: 220px;
-  width: 100%;
-}
-
-#history-chart {
-  width: 100% !important;
-  height: 100% !important;
-}
-
 @media (max-width: 700px) {
-  .container {
-    gap: 0.65rem;
-    padding: 0.5rem 0;
-  }
-
   .panel {
     padding: 0.75rem;
-  }
-
-  .chart-wrap {
-    height: 180px;
   }
 }
