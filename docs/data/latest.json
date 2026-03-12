@@ -1,47 +1,54 @@
 {
-  "updated_at": "2026-03-12T20:55:47+00:00",
+  "updated_at": "2026-03-12T21:31:57+00:00",
   "teams": [
     {
       "id": "cornell-fsae",
       "name": "FSAE",
       "url": "https://givingday.cornell.edu/campaigns/cornell-fsae",
-      "raised_cents": 988060,
-      "raised_display": "$9,880.60"
+      "raised_cents": 1023060,
+      "raised_display": "$10,230.60"
     },
     {
       "id": "cornell-electric-vehicles",
       "name": "CEV",
       "url": "https://givingday.cornell.edu/campaigns/cornell-electric-vehicles",
-      "raised_cents": 948876,
-      "raised_display": "$9,488.76"
+      "raised_cents": 1220476,
+      "raised_display": "$12,204.76"
     },
     {
       "id": "cu-baja-sae-racing-team",
       "name": "Baja",
       "url": "https://givingday.cornell.edu/campaigns/cu-baja-sae-racing-team",
-      "raised_cents": 562100,
-      "raised_display": "$5,621.00"
+      "raised_cents": 642100,
+      "raised_display": "$6,421.00"
     },
     {
       "id": "cornell-digital-tech-innovation",
       "name": "DTI",
       "url": "https://givingday.cornell.edu/campaigns/cornell-digital-tech-innovation",
-      "raised_cents": 487381,
-      "raised_display": "$4,873.81"
+      "raised_cents": 489481,
+      "raised_display": "$4,894.81"
     },
     {
       "id": "cornell-rocketry-team",
       "name": "Rocketry",
       "url": "https://givingday.cornell.edu/campaigns/cornell-rocketry-team",
-      "raised_cents": 439400,
-      "raised_display": "$4,394.00"
+      "raised_cents": 459400,
+      "raised_display": "$4,594.00"
     },
     {
       "id": "cu-mars-rover",
       "name": "Mars Rover",
       "url": "https://givingday.cornell.edu/campaigns/cu-mars-rover",
-      "raised_cents": 249700,
-      "raised_display": "$2,497.00"
+      "raised_cents": 255700,
+      "raised_display": "$2,557.00"
+    },
+    {
+      "id": "cu-air",
+      "name": "CUAir",
+      "url": "https://givingday.cornell.edu/campaigns/cu-air",
+      "raised_cents": 1262700,
+      "raised_display": "$12,627.00"
     }
   ]
 }

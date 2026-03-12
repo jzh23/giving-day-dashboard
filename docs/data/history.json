@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-12T20:55:47+00:00",
+  "updated_at": "2026-03-12T21:31:57+00:00",
   "teams": [
     {
       "id": "cornell-fsae",
@@ -15,6 +15,11 @@
           "ts": "2026-03-12T20:55:47+00:00",
           "raised_cents": 988060,
           "raised_display": "$9,880.60"
+        },
+        {
+          "ts": "2026-03-12T21:31:57+00:00",
+          "raised_cents": 1023060,
+          "raised_display": "$10,230.60"
         }
       ]
     },
@@ -32,6 +37,11 @@
           "ts": "2026-03-12T20:55:47+00:00",
           "raised_cents": 948876,
           "raised_display": "$9,488.76"
+        },
+        {
+          "ts": "2026-03-12T21:31:57+00:00",
+          "raised_cents": 1220476,
+          "raised_display": "$12,204.76"
         }
       ]
     },
@@ -49,6 +59,11 @@
           "ts": "2026-03-12T20:55:47+00:00",
           "raised_cents": 562100,
           "raised_display": "$5,621.00"
+        },
+        {
+          "ts": "2026-03-12T21:31:57+00:00",
+          "raised_cents": 642100,
+          "raised_display": "$6,421.00"
         }
       ]
     },
@@ -66,6 +81,11 @@
           "ts": "2026-03-12T20:55:47+00:00",
           "raised_cents": 487381,
           "raised_display": "$4,873.81"
+        },
+        {
+          "ts": "2026-03-12T21:31:57+00:00",
+          "raised_cents": 489481,
+          "raised_display": "$4,894.81"
         }
       ]
     },
@@ -83,6 +103,11 @@
           "ts": "2026-03-12T20:55:47+00:00",
           "raised_cents": 439400,
           "raised_display": "$4,394.00"
+        },
+        {
+          "ts": "2026-03-12T21:31:57+00:00",
+          "raised_cents": 459400,
+          "raised_display": "$4,594.00"
         }
       ]
     },
@@ -100,6 +125,23 @@
           "ts": "2026-03-12T20:55:47+00:00",
           "raised_cents": 249700,
           "raised_display": "$2,497.00"
+        },
+        {
+          "ts": "2026-03-12T21:31:57+00:00",
+          "raised_cents": 255700,
+          "raised_display": "$2,557.00"
+        }
+      ]
+    },
+    {
+      "id": "cu-air",
+      "name": "CUAir",
+      "url": "https://givingday.cornell.edu/campaigns/cu-air",
+      "points": [
+        {
+          "ts": "2026-03-12T21:31:57+00:00",
+          "raised_cents": 1262700,
+          "raised_display": "$12,627.00"
         }
       ]
     }
