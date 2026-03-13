@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-03-13T03:50:58+00:00",
+  "updated_at": "2026-03-13T03:51:49+00:00",
   "teams": [
     {
       "id": "cornell-fsae",
       "name": "FSAE",
       "url": "https://givingday.cornell.edu/campaigns/cornell-fsae",
-      "raised_cents": 2241660,
-      "raised_display": "$22,416.60"
+      "raised_cents": 2245660,
+      "raised_display": "$22,456.60"
     },
     {
       "id": "cornell-electric-vehicles",
@@ -26,8 +26,8 @@
       "id": "cornell-digital-tech-innovation",
       "name": "DTI",
       "url": "https://givingday.cornell.edu/campaigns/cornell-digital-tech-innovation",
-      "raised_cents": 778648,
-      "raised_display": "$7,786.48"
+      "raised_cents": 784148,
+      "raised_display": "$7,841.48"
     },
     {
       "id": "cornell-rocketry-team",
@@ -40,8 +40,8 @@
       "id": "cu-mars-rover",
       "name": "Mars Rover",
       "url": "https://givingday.cornell.edu/campaigns/cu-mars-rover",
-      "raised_cents": 450026,
-      "raised_display": "$4,500.26"
+      "raised_cents": 450526,
+      "raised_display": "$4,505.26"
     },
     {
       "id": "cu-air",
@@ -96,8 +96,8 @@
       "id": "cornell-igem",
       "name": "iGEM",
       "url": "https://givingday.cornell.edu/campaigns/cornell-igem",
-      "raised_cents": 250520,
-      "raised_display": "$2,505.20"
+      "raised_cents": 251020,
+      "raised_display": "$2,510.20"
     },
     {
       "id": "cu-engineers-for-a-sustainable-world",
