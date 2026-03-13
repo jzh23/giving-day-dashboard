@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-13T03:40:31+00:00",
+  "updated_at": "2026-03-13T03:41:28+00:00",
   "teams": [
     {
       "id": "cornell-fsae",
@@ -33,8 +33,8 @@
       "id": "cornell-rocketry-team",
       "name": "Rocketry",
       "url": "https://givingday.cornell.edu/campaigns/cornell-rocketry-team",
-      "raised_cents": 564400,
-      "raised_display": "$5,644.00"
+      "raised_cents": 565740,
+      "raised_display": "$5,657.40"
     },
     {
       "id": "cu-mars-rover",
@@ -138,8 +138,8 @@
       "id": "cu-steel-bridge",
       "name": "Steel Bridge",
       "url": "https://givingday.cornell.edu/campaigns/cu-steel-bridge",
-      "raised_cents": 170500,
-      "raised_display": "$1,705.00"
+      "raised_cents": 171000,
+      "raised_display": "$1,710.00"
     },
     {
       "id": "cu-agua-clara",
