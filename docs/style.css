@@ -30,6 +30,12 @@ header h1 {
   margin-bottom: 0.25rem;
 }
 
+header,
+.totals-panel {
+  width: fit-content;
+  margin: 0 auto;
+}
+
 #updated-at {
   margin-top: 0;
   color: var(--muted);
@@ -40,10 +46,6 @@ header h1 {
   border: 1px solid var(--border);
   border-radius: 12px;
   padding: 1rem;
-}
-
-.totals-panel {
-  width: fit-content;
 }
 
 h2 {
