@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-13T03:51:49+00:00",
+  "updated_at": "2026-03-13T03:52:40+00:00",
   "teams": [
     {
       "id": "cornell-fsae",
@@ -19,8 +19,8 @@
       "id": "cu-baja-sae-racing-team",
       "name": "Baja",
       "url": "https://givingday.cornell.edu/campaigns/cu-baja-sae-racing-team",
-      "raised_cents": 961000,
-      "raised_display": "$9,610.00"
+      "raised_cents": 1211000,
+      "raised_display": "$12,110.00"
     },
     {
       "id": "cornell-digital-tech-innovation",
@@ -229,8 +229,8 @@
       "id": "hack4impact1",
       "name": "Hack4Impact",
       "url": "https://givingday.cornell.edu/campaigns/hack4impact1",
-      "raised_cents": 210400,
-      "raised_display": "$2,104.00"
+      "raised_cents": 212400,
+      "raised_display": "$2,124.00"
     },
     {
       "id": "solar-boat",
