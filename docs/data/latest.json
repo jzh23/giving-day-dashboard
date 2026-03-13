@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-03-13T03:32:41+00:00",
+  "updated_at": "2026-03-13T03:37:42+00:00",
   "teams": [
     {
       "id": "cornell-fsae",
       "name": "FSAE",
       "url": "https://givingday.cornell.edu/campaigns/cornell-fsae",
-      "raised_cents": 1314160,
-      "raised_display": "$13,141.60"
+      "raised_cents": 1814160,
+      "raised_display": "$18,141.60"
     },
     {
       "id": "cornell-electric-vehicles",
       "name": "CEV",
       "url": "https://givingday.cornell.edu/campaigns/cornell-electric-vehicles",
-      "raised_cents": 1957131,
-      "raised_display": "$19,571.31"
+      "raised_cents": 1958131,
+      "raised_display": "$19,581.31"
     },
     {
       "id": "cu-baja-sae-racing-team",
       "name": "Baja",
       "url": "https://givingday.cornell.edu/campaigns/cu-baja-sae-racing-team",
-      "raised_cents": 865000,
-      "raised_display": "$8,650.00"
+      "raised_cents": 890000,
+      "raised_display": "$8,900.00"
     },
     {
       "id": "cornell-digital-tech-innovation",
@@ -75,8 +75,8 @@
       "id": "cornell-data-science",
       "name": "CDS",
       "url": "https://givingday.cornell.edu/campaigns/cornell-data-science",
-      "raised_cents": 225567,
-      "raised_display": "$2,255.67"
+      "raised_cents": 227567,
+      "raised_display": "$2,275.67"
     },
     {
       "id": "design-build-fly",
@@ -89,8 +89,8 @@
       "id": "combat-robotics",
       "name": "CRC",
       "url": "https://givingday.cornell.edu/campaigns/combat-robotics",
-      "raised_cents": 588967,
-      "raised_display": "$5,889.67"
+      "raised_cents": 591967,
+      "raised_display": "$5,919.67"
     },
     {
       "id": "cornell-igem",
@@ -103,8 +103,8 @@
       "id": "cu-engineers-for-a-sustainable-world",
       "name": "ESW",
       "url": "https://givingday.cornell.edu/campaigns/cu-engineers-for-a-sustainable-world",
-      "raised_cents": 92000,
-      "raised_display": "$920.00"
+      "raised_cents": 99000,
+      "raised_display": "$990.00"
     },
     {
       "id": "cu-engineers-in-action",
@@ -138,8 +138,8 @@
       "id": "cu-steel-bridge",
       "name": "Steel Bridge",
       "url": "https://givingday.cornell.edu/campaigns/cu-steel-bridge",
-      "raised_cents": 163000,
-      "raised_display": "$1,630.00"
+      "raised_cents": 170500,
+      "raised_display": "$1,705.00"
     },
     {
       "id": "cu-agua-clara",
@@ -166,15 +166,15 @@
       "id": "cu-sail",
       "name": "CUSail",
       "url": "https://givingday.cornell.edu/campaigns/cu-sail",
-      "raised_cents": 140200,
-      "raised_display": "$1,402.00"
+      "raised_cents": 152200,
+      "raised_display": "$1,522.00"
     },
     {
       "id": "cornell-auto-boat",
       "name": "AutoBoat",
       "url": "https://givingday.cornell.edu/campaigns/cornell-auto-boat",
-      "raised_cents": 183000,
-      "raised_display": "$1,830.00"
+      "raised_cents": 188000,
+      "raised_display": "$1,880.00"
     },
     {
       "id": "cornell-biomedical-device",
@@ -217,6 +217,34 @@
       "url": "https://givingday.cornell.edu/campaigns/cornell-assistive-technologies",
       "raised_cents": 77500,
       "raised_display": "$775.00"
+    },
+    {
+      "id": "cu-cheme-car",
+      "name": "ChemE Car",
+      "url": "https://givingday.cornell.edu/campaigns/cu-cheme-car",
+      "raised_cents": 292770,
+      "raised_display": "$2,927.70"
+    },
+    {
+      "id": "hack4impact1",
+      "name": "Hack4Impact",
+      "url": "https://givingday.cornell.edu/campaigns/hack4impact1",
+      "raised_cents": 208400,
+      "raised_display": "$2,084.00"
+    },
+    {
+      "id": "solar-boat",
+      "name": "Solar Boat",
+      "url": "https://givingday.cornell.edu/campaigns/solar-boat",
+      "raised_cents": 15500,
+      "raised_display": "$155.00"
+    },
+    {
+      "id": "cu-engineers-without-borders",
+      "name": "EWB",
+      "url": "https://givingday.cornell.edu/campaigns/cu-engineers-without-borders",
+      "raised_cents": 206093,
+      "raised_display": "$2,060.93"
     }
   ]
 }

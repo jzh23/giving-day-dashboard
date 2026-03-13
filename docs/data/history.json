@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-13T03:32:41+00:00",
+  "updated_at": "2026-03-13T03:37:42+00:00",
   "teams": [
     {
       "id": "cornell-fsae",
@@ -120,6 +120,11 @@
           "ts": "2026-03-13T03:32:41+00:00",
           "raised_cents": 1314160,
           "raised_display": "$13,141.60"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
+          "raised_cents": 1814160,
+          "raised_display": "$18,141.60"
         }
       ]
     },
@@ -242,6 +247,11 @@
           "ts": "2026-03-13T03:32:41+00:00",
           "raised_cents": 1957131,
           "raised_display": "$19,571.31"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
+          "raised_cents": 1958131,
+          "raised_display": "$19,581.31"
         }
       ]
     },
@@ -364,6 +374,11 @@
           "ts": "2026-03-13T03:32:41+00:00",
           "raised_cents": 865000,
           "raised_display": "$8,650.00"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
+          "raised_cents": 890000,
+          "raised_display": "$8,900.00"
         }
       ]
     },
@@ -484,6 +499,11 @@
         },
         {
           "ts": "2026-03-13T03:32:41+00:00",
+          "raised_cents": 778648,
+          "raised_display": "$7,786.48"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
           "raised_cents": 778648,
           "raised_display": "$7,786.48"
         }
@@ -608,6 +628,11 @@
           "ts": "2026-03-13T03:32:41+00:00",
           "raised_cents": 564400,
           "raised_display": "$5,644.00"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
+          "raised_cents": 564400,
+          "raised_display": "$5,644.00"
         }
       ]
     },
@@ -730,6 +755,11 @@
           "ts": "2026-03-13T03:32:41+00:00",
           "raised_cents": 450026,
           "raised_display": "$4,500.26"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
+          "raised_cents": 450026,
+          "raised_display": "$4,500.26"
         }
       ]
     },
@@ -842,6 +872,11 @@
           "ts": "2026-03-13T03:32:41+00:00",
           "raised_cents": 2015910,
           "raised_display": "$20,159.10"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
+          "raised_cents": 2015910,
+          "raised_display": "$20,159.10"
         }
       ]
     },
@@ -947,6 +982,11 @@
         },
         {
           "ts": "2026-03-13T03:32:41+00:00",
+          "raised_cents": 588401,
+          "raised_display": "$5,884.01"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
           "raised_cents": 588401,
           "raised_display": "$5,884.01"
         }
@@ -1056,6 +1096,11 @@
           "ts": "2026-03-13T03:32:41+00:00",
           "raised_cents": 386067,
           "raised_display": "$3,860.67"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
+          "raised_cents": 386067,
+          "raised_display": "$3,860.67"
         }
       ]
     },
@@ -1161,6 +1206,11 @@
         },
         {
           "ts": "2026-03-13T03:32:41+00:00",
+          "raised_cents": 223600,
+          "raised_display": "$2,236.00"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
           "raised_cents": 223600,
           "raised_display": "$2,236.00"
         }
@@ -1270,6 +1320,11 @@
           "ts": "2026-03-13T03:32:41+00:00",
           "raised_cents": 225567,
           "raised_display": "$2,255.67"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
+          "raised_cents": 227567,
+          "raised_display": "$2,275.67"
         }
       ]
     },
@@ -1375,6 +1430,11 @@
         },
         {
           "ts": "2026-03-13T03:32:41+00:00",
+          "raised_cents": 282500,
+          "raised_display": "$2,825.00"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
           "raised_cents": 282500,
           "raised_display": "$2,825.00"
         }
@@ -1484,6 +1544,11 @@
           "ts": "2026-03-13T03:32:41+00:00",
           "raised_cents": 588967,
           "raised_display": "$5,889.67"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
+          "raised_cents": 591967,
+          "raised_display": "$5,919.67"
         }
       ]
     },
@@ -1569,6 +1634,11 @@
         },
         {
           "ts": "2026-03-13T03:32:41+00:00",
+          "raised_cents": 237420,
+          "raised_display": "$2,374.20"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
           "raised_cents": 237420,
           "raised_display": "$2,374.20"
         }
@@ -1658,6 +1728,11 @@
           "ts": "2026-03-13T03:32:41+00:00",
           "raised_cents": 92000,
           "raised_display": "$920.00"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
+          "raised_cents": 99000,
+          "raised_display": "$990.00"
         }
       ]
     },
@@ -1743,6 +1818,11 @@
         },
         {
           "ts": "2026-03-13T03:32:41+00:00",
+          "raised_cents": 252000,
+          "raised_display": "$2,520.00"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
           "raised_cents": 252000,
           "raised_display": "$2,520.00"
         }
@@ -1832,6 +1912,11 @@
           "ts": "2026-03-13T03:32:41+00:00",
           "raised_cents": 162500,
           "raised_display": "$1,625.00"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
+          "raised_cents": 162500,
+          "raised_display": "$1,625.00"
         }
       ]
     },
@@ -1917,6 +2002,11 @@
         },
         {
           "ts": "2026-03-13T03:32:41+00:00",
+          "raised_cents": 315500,
+          "raised_display": "$3,155.00"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
           "raised_cents": 315500,
           "raised_display": "$3,155.00"
         }
@@ -2006,6 +2096,11 @@
           "ts": "2026-03-13T03:32:41+00:00",
           "raised_cents": 59500,
           "raised_display": "$595.00"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
+          "raised_cents": 59500,
+          "raised_display": "$595.00"
         }
       ]
     },
@@ -2093,6 +2188,11 @@
           "ts": "2026-03-13T03:32:41+00:00",
           "raised_cents": 163000,
           "raised_display": "$1,630.00"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
+          "raised_cents": 170500,
+          "raised_display": "$1,705.00"
         }
       ]
     },
@@ -2178,6 +2278,11 @@
         },
         {
           "ts": "2026-03-13T03:32:41+00:00",
+          "raised_cents": 913200,
+          "raised_display": "$9,132.00"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
           "raised_cents": 913200,
           "raised_display": "$9,132.00"
         }
@@ -2267,6 +2372,11 @@
           "ts": "2026-03-13T03:32:41+00:00",
           "raised_cents": 888001,
           "raised_display": "$8,880.01"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
+          "raised_cents": 888001,
+          "raised_display": "$8,880.01"
         }
       ]
     },
@@ -2352,6 +2462,11 @@
         },
         {
           "ts": "2026-03-13T03:32:41+00:00",
+          "raised_cents": 321170,
+          "raised_display": "$3,211.70"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
           "raised_cents": 321170,
           "raised_display": "$3,211.70"
         }
@@ -2441,6 +2556,11 @@
           "ts": "2026-03-13T03:32:41+00:00",
           "raised_cents": 140200,
           "raised_display": "$1,402.00"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
+          "raised_cents": 152200,
+          "raised_display": "$1,522.00"
         }
       ]
     },
@@ -2528,6 +2648,11 @@
           "ts": "2026-03-13T03:32:41+00:00",
           "raised_cents": 183000,
           "raised_display": "$1,830.00"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
+          "raised_cents": 188000,
+          "raised_display": "$1,880.00"
         }
       ]
     },
@@ -2613,6 +2738,11 @@
         },
         {
           "ts": "2026-03-13T03:32:41+00:00",
+          "raised_cents": 271270,
+          "raised_display": "$2,712.70"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
           "raised_cents": 271270,
           "raised_display": "$2,712.70"
         }
@@ -2702,6 +2832,11 @@
           "ts": "2026-03-13T03:32:41+00:00",
           "raised_cents": 115700,
           "raised_display": "$1,157.00"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
+          "raised_cents": 115700,
+          "raised_display": "$1,157.00"
         }
       ]
     },
@@ -2787,6 +2922,11 @@
         },
         {
           "ts": "2026-03-13T03:32:41+00:00",
+          "raised_cents": 650500,
+          "raised_display": "$6,505.00"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
           "raised_cents": 650500,
           "raised_display": "$6,505.00"
         }
@@ -2876,6 +3016,11 @@
           "ts": "2026-03-13T03:32:41+00:00",
           "raised_cents": 174193,
           "raised_display": "$1,741.93"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
+          "raised_cents": 174193,
+          "raised_display": "$1,741.93"
         }
       ]
     },
@@ -2961,6 +3106,11 @@
         },
         {
           "ts": "2026-03-13T03:32:41+00:00",
+          "raised_cents": 250000,
+          "raised_display": "$2,500.00"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
           "raised_cents": 250000,
           "raised_display": "$2,500.00"
         }
@@ -3050,6 +3200,59 @@
           "ts": "2026-03-13T03:32:41+00:00",
           "raised_cents": 77500,
           "raised_display": "$775.00"
+        },
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
+          "raised_cents": 77500,
+          "raised_display": "$775.00"
+        }
+      ]
+    },
+    {
+      "id": "cu-cheme-car",
+      "name": "ChemE Car",
+      "url": "https://givingday.cornell.edu/campaigns/cu-cheme-car",
+      "points": [
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
+          "raised_cents": 292770,
+          "raised_display": "$2,927.70"
+        }
+      ]
+    },
+    {
+      "id": "hack4impact1",
+      "name": "Hack4Impact",
+      "url": "https://givingday.cornell.edu/campaigns/hack4impact1",
+      "points": [
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
+          "raised_cents": 208400,
+          "raised_display": "$2,084.00"
+        }
+      ]
+    },
+    {
+      "id": "solar-boat",
+      "name": "Solar Boat",
+      "url": "https://givingday.cornell.edu/campaigns/solar-boat",
+      "points": [
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
+          "raised_cents": 15500,
+          "raised_display": "$155.00"
+        }
+      ]
+    },
+    {
+      "id": "cu-engineers-without-borders",
+      "name": "EWB",
+      "url": "https://givingday.cornell.edu/campaigns/cu-engineers-without-borders",
+      "points": [
+        {
+          "ts": "2026-03-13T03:37:42+00:00",
+          "raised_cents": 206093,
+          "raised_display": "$2,060.93"
         }
       ]
     }
