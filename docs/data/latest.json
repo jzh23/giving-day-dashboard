@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-13T03:56:00+00:00",
+  "updated_at": "2026-03-13T03:56:51+00:00",
   "teams": [
     {
       "id": "cornell-fsae",
@@ -82,8 +82,8 @@
       "id": "design-build-fly",
       "name": "DBF",
       "url": "https://givingday.cornell.edu/campaigns/design-build-fly",
-      "raised_cents": 282500,
-      "raised_display": "$2,825.00"
+      "raised_cents": 292500,
+      "raised_display": "$2,925.00"
     },
     {
       "id": "combat-robotics",
@@ -96,8 +96,8 @@
       "id": "cornell-igem",
       "name": "iGEM",
       "url": "https://givingday.cornell.edu/campaigns/cornell-igem",
-      "raised_cents": 251020,
-      "raised_display": "$2,510.20"
+      "raised_cents": 253520,
+      "raised_display": "$2,535.20"
     },
     {
       "id": "cu-engineers-for-a-sustainable-world",
