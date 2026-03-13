@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-13T03:53:29+00:00",
+  "updated_at": "2026-03-13T03:54:19+00:00",
   "teams": [
     {
       "id": "cornell-fsae",
@@ -47,8 +47,8 @@
       "id": "cu-air",
       "name": "CUAir",
       "url": "https://givingday.cornell.edu/campaigns/cu-air",
-      "raised_cents": 2020910,
-      "raised_display": "$20,209.10"
+      "raised_cents": 2035910,
+      "raised_display": "$20,359.10"
     },
     {
       "id": "cu-app-development",
