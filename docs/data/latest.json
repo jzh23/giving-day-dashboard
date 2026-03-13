@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-13T03:46:48+00:00",
+  "updated_at": "2026-03-13T03:47:39+00:00",
   "teams": [
     {
       "id": "cornell-fsae",
@@ -47,8 +47,8 @@
       "id": "cu-air",
       "name": "CUAir",
       "url": "https://givingday.cornell.edu/campaigns/cu-air",
-      "raised_cents": 2015910,
-      "raised_display": "$20,159.10"
+      "raised_cents": 2020910,
+      "raised_display": "$20,209.10"
     },
     {
       "id": "cu-app-development",
@@ -96,8 +96,8 @@
       "id": "cornell-igem",
       "name": "iGEM",
       "url": "https://givingday.cornell.edu/campaigns/cornell-igem",
-      "raised_cents": 237420,
-      "raised_display": "$2,374.20"
+      "raised_cents": 250020,
+      "raised_display": "$2,500.20"
     },
     {
       "id": "cu-engineers-for-a-sustainable-world",
