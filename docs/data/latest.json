@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-13T03:59:24+00:00",
+  "updated_at": "2026-03-13T04:00:14+00:00",
   "teams": [
     {
       "id": "cornell-fsae",
@@ -75,8 +75,8 @@
       "id": "cornell-data-science",
       "name": "CDS",
       "url": "https://givingday.cornell.edu/campaigns/cornell-data-science",
-      "raised_cents": 232567,
-      "raised_display": "$2,325.67"
+      "raised_cents": 237567,
+      "raised_display": "$2,375.67"
     },
     {
       "id": "design-build-fly",
@@ -194,8 +194,8 @@
       "id": "cornell-nexus",
       "name": "Nexus",
       "url": "https://givingday.cornell.edu/campaigns/cornell-nexus",
-      "raised_cents": 651500,
-      "raised_display": "$6,515.00"
+      "raised_cents": 656000,
+      "raised_display": "$6,560.00"
     },
     {
       "id": "cu-eeri-seismic-design",
@@ -243,8 +243,8 @@
       "id": "cu-engineers-without-borders",
       "name": "EWB",
       "url": "https://givingday.cornell.edu/campaigns/cu-engineers-without-borders",
-      "raised_cents": 206093,
-      "raised_display": "$2,060.93"
+      "raised_cents": 207093,
+      "raised_display": "$2,070.93"
     }
   ]
 }
