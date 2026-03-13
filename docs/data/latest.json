@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-13T03:38:24+00:00",
+  "updated_at": "2026-03-13T03:39:20+00:00",
   "teams": [
     {
       "id": "cornell-fsae",
@@ -12,8 +12,8 @@
       "id": "cornell-electric-vehicles",
       "name": "CEV",
       "url": "https://givingday.cornell.edu/campaigns/cornell-electric-vehicles",
-      "raised_cents": 1958131,
-      "raised_display": "$19,581.31"
+      "raised_cents": 1968131,
+      "raised_display": "$19,681.31"
     },
     {
       "id": "cu-baja-sae-racing-team",
@@ -180,8 +180,8 @@
       "id": "cornell-biomedical-device",
       "name": "Biomedical Device",
       "url": "https://givingday.cornell.edu/campaigns/cornell-biomedical-device",
-      "raised_cents": 271270,
-      "raised_display": "$2,712.70"
+      "raised_cents": 273270,
+      "raised_display": "$2,732.70"
     },
     {
       "id": "senstech",
@@ -194,8 +194,8 @@
       "id": "cornell-nexus",
       "name": "Nexus",
       "url": "https://givingday.cornell.edu/campaigns/cornell-nexus",
-      "raised_cents": 650500,
-      "raised_display": "$6,505.00"
+      "raised_cents": 651500,
+      "raised_display": "$6,515.00"
     },
     {
       "id": "cu-eeri-seismic-design",
@@ -222,15 +222,15 @@
       "id": "cu-cheme-car",
       "name": "ChemE Car",
       "url": "https://givingday.cornell.edu/campaigns/cu-cheme-car",
-      "raised_cents": 292770,
-      "raised_display": "$2,927.70"
+      "raised_cents": 294770,
+      "raised_display": "$2,947.70"
     },
     {
       "id": "hack4impact1",
       "name": "Hack4Impact",
       "url": "https://givingday.cornell.edu/campaigns/hack4impact1",
-      "raised_cents": 208400,
-      "raised_display": "$2,084.00"
+      "raised_cents": 210400,
+      "raised_display": "$2,104.00"
     },
     {
       "id": "solar-boat",
