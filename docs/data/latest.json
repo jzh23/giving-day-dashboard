@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-13T03:30:12+00:00",
+  "updated_at": "2026-03-13T03:31:27+00:00",
   "teams": [
     {
       "id": "cornell-fsae",
@@ -173,8 +173,8 @@
       "id": "cornell-auto-boat",
       "name": "AutoBoat",
       "url": "https://givingday.cornell.edu/campaigns/cornell-auto-boat",
-      "raised_cents": 178000,
-      "raised_display": "$1,780.00"
+      "raised_cents": 183000,
+      "raised_display": "$1,830.00"
     },
     {
       "id": "cornell-biomedical-device",
