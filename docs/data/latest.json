@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-13T03:55:10+00:00",
+  "updated_at": "2026-03-13T03:56:00+00:00",
   "teams": [
     {
       "id": "cornell-fsae",
@@ -26,8 +26,8 @@
       "id": "cornell-digital-tech-innovation",
       "name": "DTI",
       "url": "https://givingday.cornell.edu/campaigns/cornell-digital-tech-innovation",
-      "raised_cents": 784148,
-      "raised_display": "$7,841.48"
+      "raised_cents": 784648,
+      "raised_display": "$7,846.48"
     },
     {
       "id": "cornell-rocketry-team",
@@ -75,8 +75,8 @@
       "id": "cornell-data-science",
       "name": "CDS",
       "url": "https://givingday.cornell.edu/campaigns/cornell-data-science",
-      "raised_cents": 227567,
-      "raised_display": "$2,275.67"
+      "raised_cents": 232567,
+      "raised_display": "$2,325.67"
     },
     {
       "id": "design-build-fly",
@@ -89,8 +89,8 @@
       "id": "combat-robotics",
       "name": "CRC",
       "url": "https://givingday.cornell.edu/campaigns/combat-robotics",
-      "raised_cents": 596967,
-      "raised_display": "$5,969.67"
+      "raised_cents": 599967,
+      "raised_display": "$5,999.67"
     },
     {
       "id": "cornell-igem",
@@ -103,8 +103,8 @@
       "id": "cu-engineers-for-a-sustainable-world",
       "name": "ESW",
       "url": "https://givingday.cornell.edu/campaigns/cu-engineers-for-a-sustainable-world",
-      "raised_cents": 99000,
-      "raised_display": "$990.00"
+      "raised_cents": 100000,
+      "raised_display": "$1,000.00"
     },
     {
       "id": "cu-engineers-in-action",
@@ -173,8 +173,8 @@
       "id": "cornell-auto-boat",
       "name": "AutoBoat",
       "url": "https://givingday.cornell.edu/campaigns/cornell-auto-boat",
-      "raised_cents": 208000,
-      "raised_display": "$2,080.00"
+      "raised_cents": 208500,
+      "raised_display": "$2,085.00"
     },
     {
       "id": "cornell-biomedical-device",
