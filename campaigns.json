@@ -122,5 +122,21 @@
   {
     "name": "Assistive Technologies",
     "url": "https://givingday.cornell.edu/campaigns/cornell-assistive-technologies"
+  },
+  {
+    "name": "ChemE Car",
+    "url": "https://givingday.cornell.edu/campaigns/cu-cheme-car"
+  },
+  {
+    "name": "Hack4Impact",
+    "url": "https://givingday.cornell.edu/campaigns/hack4impact1"
+  },
+  {
+    "name": "Solar Boat",
+    "url": "https://givingday.cornell.edu/campaigns/solar-boat"
+  },
+  {
+    "name": "EWB",
+    "url": "https://givingday.cornell.edu/campaigns/cu-engineers-without-borders"
   }
 ]
