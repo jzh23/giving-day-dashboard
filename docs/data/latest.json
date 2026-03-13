@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-03-13T03:39:55+00:00",
+  "updated_at": "2026-03-13T03:40:31+00:00",
   "teams": [
     {
       "id": "cornell-fsae",
       "name": "FSAE",
       "url": "https://givingday.cornell.edu/campaigns/cornell-fsae",
-      "raised_cents": 1814160,
-      "raised_display": "$18,141.60"
+      "raised_cents": 2214160,
+      "raised_display": "$22,141.60"
     },
     {
       "id": "cornell-electric-vehicles",
@@ -173,8 +173,8 @@
       "id": "cornell-auto-boat",
       "name": "AutoBoat",
       "url": "https://givingday.cornell.edu/campaigns/cornell-auto-boat",
-      "raised_cents": 188000,
-      "raised_display": "$1,880.00"
+      "raised_cents": 193000,
+      "raised_display": "$1,930.00"
     },
     {
       "id": "cornell-biomedical-device",
