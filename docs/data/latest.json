@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-13T03:48:29+00:00",
+  "updated_at": "2026-03-13T03:49:19+00:00",
   "teams": [
     {
       "id": "cornell-fsae",
@@ -89,8 +89,8 @@
       "id": "combat-robotics",
       "name": "CRC",
       "url": "https://givingday.cornell.edu/campaigns/combat-robotics",
-      "raised_cents": 591967,
-      "raised_display": "$5,919.67"
+      "raised_cents": 596967,
+      "raised_display": "$5,969.67"
     },
     {
       "id": "cornell-igem",
@@ -145,8 +145,8 @@
       "id": "cu-agua-clara",
       "name": "AguaClara",
       "url": "https://givingday.cornell.edu/campaigns/cu-agua-clara",
-      "raised_cents": 913200,
-      "raised_display": "$9,132.00"
+      "raised_cents": 916200,
+      "raised_display": "$9,162.00"
     },
     {
       "id": "cu-hyperloop",
