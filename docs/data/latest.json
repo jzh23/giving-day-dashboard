@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-13T04:01:56+00:00",
+  "updated_at": "2026-03-13T04:02:47+00:00",
   "teams": [
     {
       "id": "cornell-fsae",
@@ -26,8 +26,8 @@
       "id": "cornell-digital-tech-innovation",
       "name": "DTI",
       "url": "https://givingday.cornell.edu/campaigns/cornell-digital-tech-innovation",
-      "raised_cents": 791648,
-      "raised_display": "$7,916.48"
+      "raised_cents": 802148,
+      "raised_display": "$8,021.48"
     },
     {
       "id": "cornell-rocketry-team",
@@ -54,8 +54,8 @@
       "id": "cu-app-development",
       "name": "AppDev",
       "url": "https://givingday.cornell.edu/campaigns/cu-app-development",
-      "raised_cents": 601901,
-      "raised_display": "$6,019.01"
+      "raised_cents": 602401,
+      "raised_display": "$6,024.01"
     },
     {
       "id": "cuauv",
@@ -173,8 +173,8 @@
       "id": "cornell-auto-boat",
       "name": "AutoBoat",
       "url": "https://givingday.cornell.edu/campaigns/cornell-auto-boat",
-      "raised_cents": 245000,
-      "raised_display": "$2,450.00"
+      "raised_cents": 247000,
+      "raised_display": "$2,470.00"
     },
     {
       "id": "cornell-biomedical-device",
