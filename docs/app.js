@@ -26,10 +26,23 @@ function renderTable(teams) {
 
   for (const team of sorted) {
     const tr = document.createElement("tr");
-    tr.innerHTML = `
-      <td>${team.name}</td>
-      <td>${team.raised_display ?? "N/A"}</td>
-    `;
+
+    const nameCell = document.createElement("td");
+    if (team.url) {
+      const link = document.createElement("a");
+      link.href = team.url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.textContent = team.name;
+      nameCell.appendChild(link);
+    } else {
+      nameCell.textContent = team.name ?? "Unknown";
+    }
+
+    const raisedCell = document.createElement("td");
+    raisedCell.textContent = team.raised_display ?? "N/A";
+
+    tr.append(nameCell, raisedCell);
     body.appendChild(tr);
   }
 }
