@@ -17,12 +17,6 @@ async function loadLatest() {
   return res.json();
 }
 
-function fmtTime(ts) {
-  if (!ts) return "unknown";
-  const d = new Date(ts);
-  return d.toLocaleString();
-}
-
 function fmtDonors(count) {
   if (typeof count === "number" && Number.isFinite(count)) {
     return count.toLocaleString();
@@ -158,12 +152,11 @@ function renderTable(teams) {
 async function main() {
   try {
     const data = await loadLatest();
-    document.getElementById("updated-at").textContent = `Last update: ${fmtTime(data.updated_at)}`;
     teamsCache = data.teams || [];
     setupSortableHeaders();
     renderTable(teamsCache);
   } catch (err) {
-    document.getElementById("updated-at").textContent = `Error: ${err.message}`;
+    console.error(err);
   }
 }
 

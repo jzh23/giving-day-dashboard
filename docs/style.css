@@ -40,11 +40,6 @@ header,
   margin: 0 auto;
 }
 
-#updated-at {
-  margin-top: 0;
-  color: var(--muted);
-}
-
 .panel {
   background: var(--panel);
   border: 1px solid var(--border);
@@ -72,6 +67,12 @@ td {
 thead th {
   color: var(--muted);
   font-weight: 600;
+}
+
+thead th[data-sort-key] {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 a {
