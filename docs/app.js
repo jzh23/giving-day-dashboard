@@ -1,6 +1,5 @@
 const latestUrl = "./data/latest.json";
 const DEFAULT_SORT_DIRECTION = {
-  team: "asc",
   raised: "desc",
   donors: "desc",
   donorsPerMember: "desc",
@@ -57,7 +56,6 @@ function donorsPerMemberValue(team) {
 }
 
 function sortValue(team, key) {
-  if (key === "team") return (team.name ?? "").toLowerCase();
   if (key === "raised") return team.raised_cents;
   if (key === "donors") return team.donors_count;
   if (key === "donorsPerMember") return donorsPerMemberValue(team);
@@ -74,33 +72,16 @@ function compareTeams(a, b, key, direction) {
   if (aMissing) return 1;
   if (bMissing) return -1;
 
-  let cmp = 0;
-  if (typeof av === "string" && typeof bv === "string") {
-    cmp = av.localeCompare(bv, undefined, { sensitivity: "base" });
-  } else {
-    cmp = Number(av) - Number(bv);
-  }
-
+  const cmp = Number(av) - Number(bv);
   if (cmp === 0) return (a.name ?? "").localeCompare(b.name ?? "", undefined, { sensitivity: "base" });
   return direction === "asc" ? cmp : -cmp;
 }
 
-function updateSortButtons() {
-  const buttons = document.querySelectorAll(".sort-button");
-  for (const button of buttons) {
-    const key = button.dataset.sortKey;
-    const label = button.dataset.label ?? "";
-    const active = key === sortState.key;
-    button.textContent = active ? `${label} ${sortState.direction === "asc" ? "↑" : "↓"}` : label;
-    button.setAttribute("aria-pressed", String(active));
-  }
-}
-
-function setupSortButtons() {
-  const buttons = document.querySelectorAll(".sort-button");
-  for (const button of buttons) {
-    button.addEventListener("click", () => {
-      const key = button.dataset.sortKey;
+function setupSortableHeaders() {
+  const headers = document.querySelectorAll("thead th[data-sort-key]");
+  for (const header of headers) {
+    header.addEventListener("click", () => {
+      const key = header.dataset.sortKey;
       if (!key) return;
 
       if (sortState.key === key) {
@@ -110,11 +91,9 @@ function setupSortButtons() {
         sortState.direction = DEFAULT_SORT_DIRECTION[key] ?? "desc";
       }
 
-      updateSortButtons();
       renderTable(teamsCache);
     });
   }
-  updateSortButtons();
 }
 
 function renderTable(teams) {
@@ -157,7 +136,7 @@ async function main() {
     const data = await loadLatest();
     document.getElementById("updated-at").textContent = `Last update: ${fmtTime(data.updated_at)}`;
     teamsCache = data.teams || [];
-    setupSortButtons();
+    setupSortableHeaders();
     renderTable(teamsCache);
   } catch (err) {
     document.getElementById("updated-at").textContent = `Error: ${err.message}`;
