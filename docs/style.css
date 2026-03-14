@@ -70,6 +70,20 @@ thead th {
   font-weight: 600;
 }
 
+.sort-button {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.sort-button:hover {
+  color: var(--text);
+}
+
 a {
   color: var(--accent);
   text-decoration: none;

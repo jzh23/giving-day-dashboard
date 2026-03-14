@@ -1,4 +1,13 @@
 const latestUrl = "./data/latest.json";
+const DEFAULT_SORT_DIRECTION = {
+  team: "asc",
+  raised: "desc",
+  donors: "desc",
+  donorsPerMember: "desc",
+};
+
+const sortState = { key: "raised", direction: "desc" };
+let teamsCache = [];
 
 async function loadLatest() {
   const res = await fetch(latestUrl, { cache: "no-store" });
@@ -34,15 +43,85 @@ function fmtDonorsPerMember(donorsCount, members) {
   return "N/A";
 }
 
+function donorsPerMemberValue(team) {
+  if (
+    typeof team?.donors_count === "number" &&
+    Number.isFinite(team.donors_count) &&
+    typeof team?.members === "number" &&
+    Number.isFinite(team.members) &&
+    team.members > 0
+  ) {
+    return team.donors_count / team.members;
+  }
+  return null;
+}
+
+function sortValue(team, key) {
+  if (key === "team") return (team.name ?? "").toLowerCase();
+  if (key === "raised") return team.raised_cents;
+  if (key === "donors") return team.donors_count;
+  if (key === "donorsPerMember") return donorsPerMemberValue(team);
+  return null;
+}
+
+function compareTeams(a, b, key, direction) {
+  const av = sortValue(a, key);
+  const bv = sortValue(b, key);
+  const aMissing = av === null || av === undefined || (typeof av === "number" && !Number.isFinite(av));
+  const bMissing = bv === null || bv === undefined || (typeof bv === "number" && !Number.isFinite(bv));
+
+  if (aMissing && bMissing) return (a.name ?? "").localeCompare(b.name ?? "", undefined, { sensitivity: "base" });
+  if (aMissing) return 1;
+  if (bMissing) return -1;
+
+  let cmp = 0;
+  if (typeof av === "string" && typeof bv === "string") {
+    cmp = av.localeCompare(bv, undefined, { sensitivity: "base" });
+  } else {
+    cmp = Number(av) - Number(bv);
+  }
+
+  if (cmp === 0) return (a.name ?? "").localeCompare(b.name ?? "", undefined, { sensitivity: "base" });
+  return direction === "asc" ? cmp : -cmp;
+}
+
+function updateSortButtons() {
+  const buttons = document.querySelectorAll(".sort-button");
+  for (const button of buttons) {
+    const key = button.dataset.sortKey;
+    const label = button.dataset.label ?? "";
+    const active = key === sortState.key;
+    button.textContent = active ? `${label} ${sortState.direction === "asc" ? "↑" : "↓"}` : label;
+    button.setAttribute("aria-pressed", String(active));
+  }
+}
+
+function setupSortButtons() {
+  const buttons = document.querySelectorAll(".sort-button");
+  for (const button of buttons) {
+    button.addEventListener("click", () => {
+      const key = button.dataset.sortKey;
+      if (!key) return;
+
+      if (sortState.key === key) {
+        sortState.direction = sortState.direction === "asc" ? "desc" : "asc";
+      } else {
+        sortState.key = key;
+        sortState.direction = DEFAULT_SORT_DIRECTION[key] ?? "desc";
+      }
+
+      updateSortButtons();
+      renderTable(teamsCache);
+    });
+  }
+  updateSortButtons();
+}
+
 function renderTable(teams) {
   const body = document.getElementById("totals-body");
   body.innerHTML = "";
 
-  const sorted = [...teams].sort((a, b) => {
-    const av = a.raised_cents ?? 0;
-    const bv = b.raised_cents ?? 0;
-    return bv - av;
-  });
+  const sorted = [...teams].sort((a, b) => compareTeams(a, b, sortState.key, sortState.direction));
 
   for (const team of sorted) {
     const tr = document.createElement("tr");
@@ -77,8 +156,9 @@ async function main() {
   try {
     const data = await loadLatest();
     document.getElementById("updated-at").textContent = `Last update: ${fmtTime(data.updated_at)}`;
-    const teams = data.teams || [];
-    renderTable(teams);
+    teamsCache = data.teams || [];
+    setupSortButtons();
+    renderTable(teamsCache);
   } catch (err) {
     document.getElementById("updated-at").textContent = `Error: ${err.message}`;
   }
