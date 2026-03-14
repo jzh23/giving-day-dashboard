@@ -53,8 +53,8 @@ h2 {
 }
 
 table {
-  width: 50%;
-  min-width: 280px;
+  width: 100%;
+  min-width: 520px;
   border-collapse: collapse;
 }
 

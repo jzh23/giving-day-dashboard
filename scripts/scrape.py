@@ -25,8 +25,10 @@ class TeamResult:
     id: str
     name: str
     url: str
+    members: Optional[int]
     raised_cents: int
     raised_display: str
+    donors_count: Optional[int]
 
 
 def load_json(path: Path, default: Any) -> Any:
@@ -69,6 +71,13 @@ def parse_amount_to_cents(text: str) -> Optional[int]:
     else:
         cents = int(cents_part[:2])
     return dollars * 100 + cents
+
+
+def parse_number_to_int(text: str) -> Optional[int]:
+    match = NUMBER_PATTERN.search(text)
+    if not match:
+        return None
+    return int(match.group(1).replace(",", ""))
 
 
 def extract_support_area_json(html: str) -> Optional[dict[str, Any]]:
@@ -168,6 +177,42 @@ def extract_raised_cents(html: str) -> Optional[int]:
     return None
 
 
+def extract_donors_count(html: str) -> Optional[int]:
+    soup = BeautifulSoup(html, "html.parser")
+
+    # Prefer the campaign stats panel ("Donors") over the global site header stats.
+    for stat in soup.select("#profile-stats .profile-stat"):
+        label_node = stat.select_one("span")
+        value_node = stat.select_one(".number")
+        if not label_node or not value_node:
+            continue
+        if "donor" not in label_node.get_text(" ", strip=True).lower():
+            continue
+        count = parse_number_to_int(value_node.get_text(" ", strip=True))
+        if count is not None:
+            return count
+
+    support_area = extract_support_area_json(html)
+    if isinstance(support_area, dict):
+        for key in ("total_donors_count", "donors_count", "donor_count"):
+            maybe_count = support_area.get(key)
+            if isinstance(maybe_count, (int, float)):
+                return int(maybe_count)
+
+    match = re.search(r'"total_donors_count"\s*:\s*([0-9]+)', html)
+    if match:
+        return int(match.group(1))
+
+    full_text = soup.get_text(" ", strip=True)
+    around_donors = re.finditer(r".{0,40}donors?.{0,40}", full_text, flags=re.IGNORECASE)
+    for snippet in around_donors:
+        count = parse_number_to_int(snippet.group(0))
+        if count is not None:
+            return count
+
+    return None
+
+
 def campaign_id_from_url(url: str) -> str:
     parsed = urlparse(url)
     path = parsed.path.strip("/")
@@ -210,26 +255,35 @@ def fetch_team(team: dict[str, Any], timeout_sec: int = 20) -> TeamResult:
         stats_resp.raise_for_status()
         stats_payload = stats_resp.json()
         total_amount_raised = stats_payload.get("total_amount_raised")
+        total_donors_count = stats_payload.get("total_donors_count")
         if isinstance(total_amount_raised, (int, float)):
             cents = int(total_amount_raised)
+            donors_count = int(total_donors_count) if isinstance(total_donors_count, (int, float)) else None
+            if donors_count is None:
+                donors_count = extract_donors_count(response.text)
             return TeamResult(
                 id=team_id,
                 name=team["name"],
                 url=team["url"],
+                members=team.get("members"),
                 raised_cents=cents,
                 raised_display=cents_to_display(cents),
+                donors_count=donors_count,
             )
 
     cents = extract_raised_cents(response.text)
     if cents is None:
         raise ValueError(f"Could not find raised amount for {team_id} at {team['url']}")
+    donors_count = extract_donors_count(response.text)
 
     return TeamResult(
         id=team_id,
         name=team["name"],
         url=team["url"],
+        members=team.get("members"),
         raised_cents=cents,
         raised_display=cents_to_display(cents),
+        donors_count=donors_count,
     )
 
 
@@ -254,9 +308,11 @@ def update_history(now_iso: str, results: list[TeamResult]) -> None:
                 "ts": now_iso,
                 "raised_cents": team.raised_cents,
                 "raised_display": team.raised_display,
+                "donors_count": team.donors_count,
             }
         )
         entry.update({"id": team.id, "name": team.name, "url": team.url, "points": points})
+        entry["members"] = team.members
         next_teams.append(entry)
 
     history_payload = {"updated_at": now_iso, "teams": next_teams}
@@ -271,8 +327,10 @@ def update_latest(now_iso: str, results: list[TeamResult]) -> None:
                 "id": t.id,
                 "name": t.name,
                 "url": t.url,
+                "members": t.members,
                 "raised_cents": t.raised_cents,
                 "raised_display": t.raised_display,
+                "donors_count": t.donors_count,
             }
             for t in results
         ],

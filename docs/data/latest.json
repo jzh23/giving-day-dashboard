@@ -1,250 +1,320 @@
 {
-  "updated_at": "2026-03-13T04:04:28+00:00",
+  "updated_at": "2026-03-14T07:10:19+00:00",
   "teams": [
     {
       "id": "cornell-fsae",
       "name": "FSAE",
       "url": "https://givingday.cornell.edu/campaigns/cornell-fsae",
+      "members": 45,
       "raised_cents": 2263160,
-      "raised_display": "$22,631.60"
+      "raised_display": "$22,631.60",
+      "donors_count": 102
     },
     {
       "id": "cornell-electric-vehicles",
       "name": "CEV",
       "url": "https://givingday.cornell.edu/campaigns/cornell-electric-vehicles",
+      "members": 75,
       "raised_cents": 1995631,
-      "raised_display": "$19,956.31"
+      "raised_display": "$19,956.31",
+      "donors_count": 156
     },
     {
       "id": "cu-baja-sae-racing-team",
       "name": "Baja",
       "url": "https://givingday.cornell.edu/campaigns/cu-baja-sae-racing-team",
+      "members": 59,
       "raised_cents": 1211500,
-      "raised_display": "$12,115.00"
+      "raised_display": "$12,115.00",
+      "donors_count": 61
     },
     {
       "id": "cornell-digital-tech-innovation",
       "name": "DTI",
       "url": "https://givingday.cornell.edu/campaigns/cornell-digital-tech-innovation",
+      "members": 85,
       "raised_cents": 802148,
-      "raised_display": "$8,021.48"
+      "raised_display": "$8,021.48",
+      "donors_count": 80
     },
     {
       "id": "cornell-rocketry-team",
       "name": "Rocketry",
       "url": "https://givingday.cornell.edu/campaigns/cornell-rocketry-team",
+      "members": 33,
       "raised_cents": 567080,
-      "raised_display": "$5,670.80"
+      "raised_display": "$5,670.80",
+      "donors_count": 44
     },
     {
       "id": "cu-mars-rover",
       "name": "Mars Rover",
       "url": "https://givingday.cornell.edu/campaigns/cu-mars-rover",
+      "members": 60,
       "raised_cents": 450526,
-      "raised_display": "$4,505.26"
+      "raised_display": "$4,505.26",
+      "donors_count": 35
     },
     {
       "id": "cu-air",
       "name": "CUAir",
       "url": "https://givingday.cornell.edu/campaigns/cu-air",
+      "members": 75,
       "raised_cents": 2056580,
-      "raised_display": "$20,565.80"
+      "raised_display": "$20,565.80",
+      "donors_count": 97
     },
     {
       "id": "cu-app-development",
       "name": "AppDev",
       "url": "https://givingday.cornell.edu/campaigns/cu-app-development",
+      "members": 56,
       "raised_cents": 602401,
-      "raised_display": "$6,024.01"
+      "raised_display": "$6,024.01",
+      "donors_count": 83
     },
     {
       "id": "cuauv",
       "name": "CUAUV",
       "url": "https://givingday.cornell.edu/campaigns/cuauv",
+      "members": 52,
       "raised_cents": 393567,
-      "raised_display": "$3,935.67"
+      "raised_display": "$3,935.67",
+      "donors_count": 30
     },
     {
       "id": "autonomous-drone-cuad-gift",
       "name": "CUAD",
       "url": "https://givingday.cornell.edu/campaigns/autonomous-drone-cuad-gift",
-      "raised_cents": 224100,
-      "raised_display": "$2,241.00"
+      "members": 56,
+      "raised_cents": 223600,
+      "raised_display": "$2,236.00",
+      "donors_count": 12
     },
     {
       "id": "cornell-data-science",
       "name": "CDS",
       "url": "https://givingday.cornell.edu/campaigns/cornell-data-science",
+      "members": 54,
       "raised_cents": 244567,
-      "raised_display": "$2,445.67"
+      "raised_display": "$2,445.67",
+      "donors_count": 46
     },
     {
       "id": "design-build-fly",
       "name": "DBF",
       "url": "https://givingday.cornell.edu/campaigns/design-build-fly",
+      "members": 59,
       "raised_cents": 293000,
-      "raised_display": "$2,930.00"
+      "raised_display": "$2,930.00",
+      "donors_count": 31
     },
     {
       "id": "combat-robotics",
       "name": "CRC",
       "url": "https://givingday.cornell.edu/campaigns/combat-robotics",
+      "members": 45,
       "raised_cents": 606437,
-      "raised_display": "$6,064.37"
+      "raised_display": "$6,064.37",
+      "donors_count": 96
     },
     {
       "id": "cornell-igem",
       "name": "iGEM",
       "url": "https://givingday.cornell.edu/campaigns/cornell-igem",
+      "members": 50,
       "raised_cents": 253520,
-      "raised_display": "$2,535.20"
+      "raised_display": "$2,535.20",
+      "donors_count": 38
     },
     {
       "id": "cu-engineers-for-a-sustainable-world",
       "name": "ESW",
       "url": "https://givingday.cornell.edu/campaigns/cu-engineers-for-a-sustainable-world",
+      "members": 84,
       "raised_cents": 100500,
-      "raised_display": "$1,005.00"
+      "raised_display": "$1,005.00",
+      "donors_count": 22
     },
     {
       "id": "cu-engineers-in-action",
       "name": "EIA",
       "url": "https://givingday.cornell.edu/campaigns/cu-engineers-in-action",
-      "raised_cents": 255500,
-      "raised_display": "$2,555.00"
+      "members": 35,
+      "raised_cents": 245500,
+      "raised_display": "$2,455.00",
+      "donors_count": 44
     },
     {
       "id": "cu-geodata",
       "name": "Geodata",
       "url": "https://givingday.cornell.edu/campaigns/cu-geodata",
+      "members": 29,
       "raised_cents": 162500,
-      "raised_display": "$1,625.00"
+      "raised_display": "$1,625.00",
+      "donors_count": 21
     },
     {
       "id": "cu-concrete-canoe",
       "name": "Concrete Canoe",
       "url": "https://givingday.cornell.edu/campaigns/cu-concrete-canoe",
+      "members": 72,
       "raised_cents": 320500,
-      "raised_display": "$3,205.00"
+      "raised_display": "$3,205.00",
+      "donors_count": 49
     },
     {
       "id": "cornell-custom-silicon-systems",
       "name": "C2S2",
       "url": "https://givingday.cornell.edu/campaigns/cornell-custom-silicon-systems",
+      "members": 13,
       "raised_cents": 59500,
-      "raised_display": "$595.00"
+      "raised_display": "$595.00",
+      "donors_count": 13
     },
     {
       "id": "cu-steel-bridge",
       "name": "Steel Bridge",
       "url": "https://givingday.cornell.edu/campaigns/cu-steel-bridge",
+      "members": 21,
       "raised_cents": 171000,
-      "raised_display": "$1,710.00"
+      "raised_display": "$1,710.00",
+      "donors_count": 33
     },
     {
       "id": "cu-agua-clara",
       "name": "AguaClara",
       "url": "https://givingday.cornell.edu/campaigns/cu-agua-clara",
+      "members": 41,
       "raised_cents": 916700,
-      "raised_display": "$9,167.00"
+      "raised_display": "$9,167.00",
+      "donors_count": 45
     },
     {
       "id": "cu-hyperloop",
       "name": "Hyperloop",
       "url": "https://givingday.cornell.edu/campaigns/cu-hyperloop",
+      "members": 45,
       "raised_cents": 888501,
-      "raised_display": "$8,885.01"
+      "raised_display": "$8,885.01",
+      "donors_count": 27
     },
     {
       "id": "cu-engineering-world-health",
       "name": "Engineering World Health",
       "url": "https://givingday.cornell.edu/campaigns/cu-engineering-world-health",
+      "members": 6,
       "raised_cents": 331170,
-      "raised_display": "$3,311.70"
+      "raised_display": "$3,311.70",
+      "donors_count": 32
     },
     {
       "id": "cu-sail",
       "name": "CUSail",
       "url": "https://givingday.cornell.edu/campaigns/cu-sail",
+      "members": 32,
       "raised_cents": 152200,
-      "raised_display": "$1,522.00"
+      "raised_display": "$1,522.00",
+      "donors_count": 38
     },
     {
       "id": "cornell-auto-boat",
       "name": "AutoBoat",
       "url": "https://givingday.cornell.edu/campaigns/cornell-auto-boat",
+      "members": 72,
       "raised_cents": 247000,
-      "raised_display": "$2,470.00"
+      "raised_display": "$2,470.00",
+      "donors_count": 40
     },
     {
       "id": "cornell-biomedical-device",
       "name": "Biomedical Device",
       "url": "https://givingday.cornell.edu/campaigns/cornell-biomedical-device",
+      "members": 10,
       "raised_cents": 288270,
-      "raised_display": "$2,882.70"
+      "raised_display": "$2,882.70",
+      "donors_count": 51
     },
     {
       "id": "senstech",
       "name": "SensTech",
       "url": "https://givingday.cornell.edu/campaigns/senstech",
+      "members": 16,
       "raised_cents": 115700,
-      "raised_display": "$1,157.00"
+      "raised_display": "$1,157.00",
+      "donors_count": 22
     },
     {
       "id": "cornell-nexus",
       "name": "Nexus",
       "url": "https://givingday.cornell.edu/campaigns/cornell-nexus",
+      "members": 42,
       "raised_cents": 656000,
-      "raised_display": "$6,560.00"
+      "raised_display": "$6,560.00",
+      "donors_count": 58
     },
     {
       "id": "cu-eeri-seismic-design",
       "name": "Seismic Design",
       "url": "https://givingday.cornell.edu/campaigns/cu-eeri-seismic-design",
+      "members": 25,
       "raised_cents": 174193,
-      "raised_display": "$1,741.93"
+      "raised_display": "$1,741.93",
+      "donors_count": 33
     },
     {
       "id": "design-by-biomedical-ug-teams-debut",
       "name": "DEBUT",
       "url": "https://givingday.cornell.edu/campaigns/design-by-biomedical-ug-teams-debut",
+      "members": 51,
       "raised_cents": 250000,
-      "raised_display": "$2,500.00"
+      "raised_display": "$2,500.00",
+      "donors_count": 15
     },
     {
       "id": "cornell-assistive-technologies",
       "name": "Assistive Technologies",
       "url": "https://givingday.cornell.edu/campaigns/cornell-assistive-technologies",
+      "members": 45,
       "raised_cents": 77500,
-      "raised_display": "$775.00"
+      "raised_display": "$775.00",
+      "donors_count": 15
     },
     {
       "id": "cu-cheme-car",
       "name": "ChemE Car",
       "url": "https://givingday.cornell.edu/campaigns/cu-cheme-car",
+      "members": 63,
       "raised_cents": 297470,
-      "raised_display": "$2,974.70"
+      "raised_display": "$2,974.70",
+      "donors_count": 75
     },
     {
       "id": "hack4impact1",
       "name": "Hack4Impact",
       "url": "https://givingday.cornell.edu/campaigns/hack4impact1",
+      "members": 65,
       "raised_cents": 216900,
-      "raised_display": "$2,169.00"
+      "raised_display": "$2,169.00",
+      "donors_count": 127
     },
     {
       "id": "solar-boat",
       "name": "Solar Boat",
       "url": "https://givingday.cornell.edu/campaigns/solar-boat",
+      "members": 31,
       "raised_cents": 15500,
-      "raised_display": "$155.00"
+      "raised_display": "$155.00",
+      "donors_count": 3
     },
     {
       "id": "cu-engineers-without-borders",
       "name": "EWB",
       "url": "https://givingday.cornell.edu/campaigns/cu-engineers-without-borders",
+      "members": 48,
       "raised_cents": 207093,
-      "raised_display": "$2,070.93"
+      "raised_display": "$2,070.93",
+      "donors_count": 20
     }
   ]
 }

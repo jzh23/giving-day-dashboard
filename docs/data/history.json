@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-13T04:04:28+00:00",
+  "updated_at": "2026-03-14T07:10:19+00:00",
   "teams": [
     {
       "id": "cornell-fsae",
@@ -280,8 +280,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 2263160,
           "raised_display": "$22,631.60"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 2263160,
+          "raised_display": "$22,631.60",
+          "donors_count": 102
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 2263160,
+          "raised_display": "$22,631.60",
+          "donors_count": 102
         }
-      ]
+      ],
+      "members": 45
     },
     {
       "id": "cornell-electric-vehicles",
@@ -562,8 +575,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 1995631,
           "raised_display": "$19,956.31"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 1995631,
+          "raised_display": "$19,956.31",
+          "donors_count": 156
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 1995631,
+          "raised_display": "$19,956.31",
+          "donors_count": 156
         }
-      ]
+      ],
+      "members": 75
     },
     {
       "id": "cu-baja-sae-racing-team",
@@ -844,8 +870,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 1211500,
           "raised_display": "$12,115.00"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 1211500,
+          "raised_display": "$12,115.00",
+          "donors_count": 61
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 1211500,
+          "raised_display": "$12,115.00",
+          "donors_count": 61
         }
-      ]
+      ],
+      "members": 59
     },
     {
       "id": "cornell-digital-tech-innovation",
@@ -1126,8 +1165,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 802148,
           "raised_display": "$8,021.48"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 802148,
+          "raised_display": "$8,021.48",
+          "donors_count": 80
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 802148,
+          "raised_display": "$8,021.48",
+          "donors_count": 80
         }
-      ]
+      ],
+      "members": 85
     },
     {
       "id": "cornell-rocketry-team",
@@ -1408,8 +1460,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 567080,
           "raised_display": "$5,670.80"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 567080,
+          "raised_display": "$5,670.80",
+          "donors_count": 44
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 567080,
+          "raised_display": "$5,670.80",
+          "donors_count": 44
         }
-      ]
+      ],
+      "members": 33
     },
     {
       "id": "cu-mars-rover",
@@ -1690,8 +1755,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 450526,
           "raised_display": "$4,505.26"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 450526,
+          "raised_display": "$4,505.26",
+          "donors_count": 35
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 450526,
+          "raised_display": "$4,505.26",
+          "donors_count": 35
         }
-      ]
+      ],
+      "members": 60
     },
     {
       "id": "cu-air",
@@ -1962,8 +2040,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 2056580,
           "raised_display": "$20,565.80"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 2056580,
+          "raised_display": "$20,565.80",
+          "donors_count": 97
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 2056580,
+          "raised_display": "$20,565.80",
+          "donors_count": 97
         }
-      ]
+      ],
+      "members": 75
     },
     {
       "id": "cu-app-development",
@@ -2229,8 +2320,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 602401,
           "raised_display": "$6,024.01"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 602401,
+          "raised_display": "$6,024.01",
+          "donors_count": 83
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 602401,
+          "raised_display": "$6,024.01",
+          "donors_count": 83
         }
-      ]
+      ],
+      "members": 56
     },
     {
       "id": "cuauv",
@@ -2496,8 +2600,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 393567,
           "raised_display": "$3,935.67"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 393567,
+          "raised_display": "$3,935.67",
+          "donors_count": 30
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 393567,
+          "raised_display": "$3,935.67",
+          "donors_count": 30
         }
-      ]
+      ],
+      "members": 52
     },
     {
       "id": "autonomous-drone-cuad-gift",
@@ -2763,8 +2880,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 224100,
           "raised_display": "$2,241.00"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 223600,
+          "raised_display": "$2,236.00",
+          "donors_count": 12
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 223600,
+          "raised_display": "$2,236.00",
+          "donors_count": 12
         }
-      ]
+      ],
+      "members": 56
     },
     {
       "id": "cornell-data-science",
@@ -3030,8 +3160,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 244567,
           "raised_display": "$2,445.67"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 244567,
+          "raised_display": "$2,445.67",
+          "donors_count": 46
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 244567,
+          "raised_display": "$2,445.67",
+          "donors_count": 46
         }
-      ]
+      ],
+      "members": 54
     },
     {
       "id": "design-build-fly",
@@ -3297,8 +3440,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 293000,
           "raised_display": "$2,930.00"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 293000,
+          "raised_display": "$2,930.00",
+          "donors_count": 31
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 293000,
+          "raised_display": "$2,930.00",
+          "donors_count": 31
         }
-      ]
+      ],
+      "members": 59
     },
     {
       "id": "combat-robotics",
@@ -3564,8 +3720,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 606437,
           "raised_display": "$6,064.37"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 606437,
+          "raised_display": "$6,064.37",
+          "donors_count": 96
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 606437,
+          "raised_display": "$6,064.37",
+          "donors_count": 96
         }
-      ]
+      ],
+      "members": 45
     },
     {
       "id": "cornell-igem",
@@ -3811,8 +3980,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 253520,
           "raised_display": "$2,535.20"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 253520,
+          "raised_display": "$2,535.20",
+          "donors_count": 38
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 253520,
+          "raised_display": "$2,535.20",
+          "donors_count": 38
         }
-      ]
+      ],
+      "members": 50
     },
     {
       "id": "cu-engineers-for-a-sustainable-world",
@@ -4058,8 +4240,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 100500,
           "raised_display": "$1,005.00"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 100500,
+          "raised_display": "$1,005.00",
+          "donors_count": 22
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 100500,
+          "raised_display": "$1,005.00",
+          "donors_count": 22
         }
-      ]
+      ],
+      "members": 84
     },
     {
       "id": "cu-engineers-in-action",
@@ -4305,8 +4500,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 255500,
           "raised_display": "$2,555.00"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 245500,
+          "raised_display": "$2,455.00",
+          "donors_count": 44
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 245500,
+          "raised_display": "$2,455.00",
+          "donors_count": 44
         }
-      ]
+      ],
+      "members": 35
     },
     {
       "id": "cu-geodata",
@@ -4552,8 +4760,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 162500,
           "raised_display": "$1,625.00"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 162500,
+          "raised_display": "$1,625.00",
+          "donors_count": 21
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 162500,
+          "raised_display": "$1,625.00",
+          "donors_count": 21
         }
-      ]
+      ],
+      "members": 29
     },
     {
       "id": "cu-concrete-canoe",
@@ -4799,8 +5020,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 320500,
           "raised_display": "$3,205.00"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 320500,
+          "raised_display": "$3,205.00",
+          "donors_count": 49
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 320500,
+          "raised_display": "$3,205.00",
+          "donors_count": 49
         }
-      ]
+      ],
+      "members": 72
     },
     {
       "id": "cornell-custom-silicon-systems",
@@ -5046,8 +5280,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 59500,
           "raised_display": "$595.00"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 59500,
+          "raised_display": "$595.00",
+          "donors_count": 13
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 59500,
+          "raised_display": "$595.00",
+          "donors_count": 13
         }
-      ]
+      ],
+      "members": 13
     },
     {
       "id": "cu-steel-bridge",
@@ -5293,8 +5540,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 171000,
           "raised_display": "$1,710.00"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 171000,
+          "raised_display": "$1,710.00",
+          "donors_count": 33
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 171000,
+          "raised_display": "$1,710.00",
+          "donors_count": 33
         }
-      ]
+      ],
+      "members": 21
     },
     {
       "id": "cu-agua-clara",
@@ -5540,8 +5800,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 916700,
           "raised_display": "$9,167.00"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 916700,
+          "raised_display": "$9,167.00",
+          "donors_count": 45
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 916700,
+          "raised_display": "$9,167.00",
+          "donors_count": 45
         }
-      ]
+      ],
+      "members": 41
     },
     {
       "id": "cu-hyperloop",
@@ -5787,8 +6060,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 888501,
           "raised_display": "$8,885.01"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 888501,
+          "raised_display": "$8,885.01",
+          "donors_count": 27
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 888501,
+          "raised_display": "$8,885.01",
+          "donors_count": 27
         }
-      ]
+      ],
+      "members": 45
     },
     {
       "id": "cu-engineering-world-health",
@@ -6034,8 +6320,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 331170,
           "raised_display": "$3,311.70"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 331170,
+          "raised_display": "$3,311.70",
+          "donors_count": 32
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 331170,
+          "raised_display": "$3,311.70",
+          "donors_count": 32
         }
-      ]
+      ],
+      "members": 6
     },
     {
       "id": "cu-sail",
@@ -6281,8 +6580,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 152200,
           "raised_display": "$1,522.00"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 152200,
+          "raised_display": "$1,522.00",
+          "donors_count": 38
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 152200,
+          "raised_display": "$1,522.00",
+          "donors_count": 38
         }
-      ]
+      ],
+      "members": 32
     },
     {
       "id": "cornell-auto-boat",
@@ -6528,8 +6840,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 247000,
           "raised_display": "$2,470.00"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 247000,
+          "raised_display": "$2,470.00",
+          "donors_count": 40
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 247000,
+          "raised_display": "$2,470.00",
+          "donors_count": 40
         }
-      ]
+      ],
+      "members": 72
     },
     {
       "id": "cornell-biomedical-device",
@@ -6775,8 +7100,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 288270,
           "raised_display": "$2,882.70"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 288270,
+          "raised_display": "$2,882.70",
+          "donors_count": 51
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 288270,
+          "raised_display": "$2,882.70",
+          "donors_count": 51
         }
-      ]
+      ],
+      "members": 10
     },
     {
       "id": "senstech",
@@ -7022,8 +7360,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 115700,
           "raised_display": "$1,157.00"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 115700,
+          "raised_display": "$1,157.00",
+          "donors_count": 22
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 115700,
+          "raised_display": "$1,157.00",
+          "donors_count": 22
         }
-      ]
+      ],
+      "members": 16
     },
     {
       "id": "cornell-nexus",
@@ -7269,8 +7620,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 656000,
           "raised_display": "$6,560.00"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 656000,
+          "raised_display": "$6,560.00",
+          "donors_count": 58
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 656000,
+          "raised_display": "$6,560.00",
+          "donors_count": 58
         }
-      ]
+      ],
+      "members": 42
     },
     {
       "id": "cu-eeri-seismic-design",
@@ -7516,8 +7880,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 174193,
           "raised_display": "$1,741.93"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 174193,
+          "raised_display": "$1,741.93",
+          "donors_count": 33
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 174193,
+          "raised_display": "$1,741.93",
+          "donors_count": 33
         }
-      ]
+      ],
+      "members": 25
     },
     {
       "id": "design-by-biomedical-ug-teams-debut",
@@ -7763,8 +8140,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 250000,
           "raised_display": "$2,500.00"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 250000,
+          "raised_display": "$2,500.00",
+          "donors_count": 15
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 250000,
+          "raised_display": "$2,500.00",
+          "donors_count": 15
         }
-      ]
+      ],
+      "members": 51
     },
     {
       "id": "cornell-assistive-technologies",
@@ -8010,8 +8400,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 77500,
           "raised_display": "$775.00"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 77500,
+          "raised_display": "$775.00",
+          "donors_count": 15
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 77500,
+          "raised_display": "$775.00",
+          "donors_count": 15
         }
-      ]
+      ],
+      "members": 45
     },
     {
       "id": "cu-cheme-car",
@@ -8177,8 +8580,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 297470,
           "raised_display": "$2,974.70"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 297470,
+          "raised_display": "$2,974.70",
+          "donors_count": 75
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 297470,
+          "raised_display": "$2,974.70",
+          "donors_count": 75
         }
-      ]
+      ],
+      "members": 63
     },
     {
       "id": "hack4impact1",
@@ -8344,8 +8760,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 216900,
           "raised_display": "$2,169.00"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 216900,
+          "raised_display": "$2,169.00",
+          "donors_count": 127
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 216900,
+          "raised_display": "$2,169.00",
+          "donors_count": 127
         }
-      ]
+      ],
+      "members": 65
     },
     {
       "id": "solar-boat",
@@ -8511,8 +8940,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 15500,
           "raised_display": "$155.00"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 15500,
+          "raised_display": "$155.00",
+          "donors_count": 3
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 15500,
+          "raised_display": "$155.00",
+          "donors_count": 3
         }
-      ]
+      ],
+      "members": 31
     },
     {
       "id": "cu-engineers-without-borders",
@@ -8678,8 +9120,21 @@
           "ts": "2026-03-13T04:04:28+00:00",
           "raised_cents": 207093,
           "raised_display": "$2,070.93"
+        },
+        {
+          "ts": "2026-03-14T07:00:35+00:00",
+          "raised_cents": 207093,
+          "raised_display": "$2,070.93",
+          "donors_count": 20
+        },
+        {
+          "ts": "2026-03-14T07:10:19+00:00",
+          "raised_cents": 207093,
+          "raised_display": "$2,070.93",
+          "donors_count": 20
         }
-      ]
+      ],
+      "members": 48
     }
   ]
 }
