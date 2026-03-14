@@ -2,6 +2,7 @@ const latestUrl = "./data/latest.json";
 const DEFAULT_SORT_DIRECTION = {
   raised: "desc",
   donors: "desc",
+  raisedPerDonor: "desc",
   donorsPerMember: "desc",
 };
 
@@ -42,6 +43,25 @@ function fmtDonorsPerMember(donorsCount, members) {
   return "N/A";
 }
 
+function fmtRaisedPerDonor(raisedCents, donorsCount) {
+  const value = raisedPerDonorValue({ raised_cents: raisedCents, donors_count: donorsCount });
+  if (value === null) return "N/A";
+  return value.toLocaleString(undefined, { style: "currency", currency: "USD" });
+}
+
+function raisedPerDonorValue(team) {
+  if (
+    typeof team?.raised_cents === "number" &&
+    Number.isFinite(team.raised_cents) &&
+    typeof team?.donors_count === "number" &&
+    Number.isFinite(team.donors_count) &&
+    team.donors_count > 0
+  ) {
+    return team.raised_cents / 100 / team.donors_count;
+  }
+  return null;
+}
+
 function donorsPerMemberValue(team) {
   if (
     typeof team?.donors_count === "number" &&
@@ -58,6 +78,7 @@ function donorsPerMemberValue(team) {
 function sortValue(team, key) {
   if (key === "raised") return team.raised_cents;
   if (key === "donors") return team.donors_count;
+  if (key === "raisedPerDonor") return raisedPerDonorValue(team);
   if (key === "donorsPerMember") return donorsPerMemberValue(team);
   return null;
 }
@@ -123,10 +144,13 @@ function renderTable(teams) {
     const donorsCell = document.createElement("td");
     donorsCell.textContent = fmtDonors(team.donors_count);
 
+    const raisedPerDonorCell = document.createElement("td");
+    raisedPerDonorCell.textContent = fmtRaisedPerDonor(team.raised_cents, team.donors_count);
+
     const donorsPerMemberCell = document.createElement("td");
     donorsPerMemberCell.textContent = fmtDonorsPerMember(team.donors_count, team.members);
 
-    tr.append(nameCell, raisedCell, donorsCell, donorsPerMemberCell);
+    tr.append(nameCell, raisedCell, donorsCell, raisedPerDonorCell, donorsPerMemberCell);
     body.appendChild(tr);
   }
 }
