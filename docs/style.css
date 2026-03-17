@@ -1,5 +1,5 @@
 :root {
-  --bg: #f4f6fb;
+  --bg: #faf7f7;
   --panel: #ffffff;
   --text: #13213a;
   --muted: #5d6b86;
@@ -9,12 +9,12 @@
 
 * {
   box-sizing: border-box;
+  font-family: "Apercu", "Apercu Pro", "Avenir Next", "Segoe UI", sans-serif;
 }
 
 body {
   margin: 0;
-  font-family: "Avenir Next", "Segoe UI", sans-serif;
-  background: radial-gradient(circle at top, #eaf0ff, var(--bg));
+  background: radial-gradient(circle at top, #fcf3f3, var(--bg));
   color: var(--text);
 }
 
@@ -47,10 +47,6 @@ header,
   padding: 1rem;
 }
 
-h2 {
-  margin-top: 0;
-}
-
 table {
   width: 100%;
   min-width: 520px;
@@ -75,9 +71,24 @@ thead th[data-sort-key] {
   -webkit-user-select: none;
 }
 
+thead th[data-sort-key]:hover,
+thead th[data-sort-key]:focus-visible {
+  color: #d73938;
+}
+
 a {
   color: var(--accent);
   text-decoration: none;
+}
+
+.totals-panel tbody td:first-child a,
+.totals-panel tbody td:first-child a:visited {
+  color: inherit;
+}
+
+.totals-panel tbody td:first-child a:hover,
+.totals-panel tbody td:first-child a:focus-visible {
+  color: #d73938;
 }
 
 @media (max-width: 700px) {

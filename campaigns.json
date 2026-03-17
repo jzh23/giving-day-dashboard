@@ -2,42 +2,42 @@
   {
     "name": "FSAE",
     "url": "https://givingday.cornell.edu/campaigns/cornell-fsae",
-    "members": 45
+    "members": 73
   },
   {
     "name": "CEV",
     "url": "https://givingday.cornell.edu/campaigns/cornell-electric-vehicles",
-    "members": 75
+    "members": 80
   },
   {
     "name": "Baja",
     "url": "https://givingday.cornell.edu/campaigns/cu-baja-sae-racing-team",
-    "members": 59
+    "members": 54
   },
   {
     "name": "DTI",
     "url": "https://givingday.cornell.edu/campaigns/cornell-digital-tech-innovation",
-    "members": 85
+    "members": 80
   },
   {
     "name": "Rocketry",
     "url": "https://givingday.cornell.edu/campaigns/cornell-rocketry-team",
-    "members": 33
+    "members": 58
   },
   {
     "name": "Mars Rover",
     "url": "https://givingday.cornell.edu/campaigns/cu-mars-rover",
-    "members": 60
+    "members": 51
   },
   {
     "name": "CUAir",
     "url": "https://givingday.cornell.edu/campaigns/cu-air",
-    "members": 75
+    "members": 63
   },
   {
     "name": "AppDev",
     "url": "https://givingday.cornell.edu/campaigns/cu-app-development",
-    "members": 56
+    "members": 65
   },
   {
     "name": "CUAUV",
@@ -47,7 +47,7 @@
   {
     "name": "CUAD",
     "url": "https://givingday.cornell.edu/campaigns/autonomous-drone-cuad-gift",
-    "members": 56
+    "members": 51
   },
   {
     "name": "CDS",
@@ -57,12 +57,12 @@
   {
     "name": "DBF",
     "url": "https://givingday.cornell.edu/campaigns/design-build-fly",
-    "members": 59
+    "members": 38
   },
   {
     "name": "CRC",
     "url": "https://givingday.cornell.edu/campaigns/combat-robotics",
-    "members": 45
+    "members": 49
   },
   {
     "name": "iGEM",
@@ -72,7 +72,7 @@
   {
     "name": "ESW",
     "url": "https://givingday.cornell.edu/campaigns/cu-engineers-for-a-sustainable-world",
-    "members": 84
+    "members": 70
   },
   {
     "name": "EIA",
@@ -82,27 +82,27 @@
   {
     "name": "Geodata",
     "url": "https://givingday.cornell.edu/campaigns/cu-geodata",
-    "members": 29
+    "members": 32
   },
   {
     "name": "Concrete Canoe",
     "url": "https://givingday.cornell.edu/campaigns/cu-concrete-canoe",
-    "members": 72
+    "members": 64
   },
   {
     "name": "C2S2",
     "url": "https://givingday.cornell.edu/campaigns/cornell-custom-silicon-systems",
-    "members": 13
+    "members": 54
   },
   {
     "name": "Steel Bridge",
     "url": "https://givingday.cornell.edu/campaigns/cu-steel-bridge",
-    "members": 21
+    "members": 32
   },
   {
     "name": "AguaClara",
     "url": "https://givingday.cornell.edu/campaigns/cu-agua-clara",
-    "members": 41
+    "members": 48
   },
   {
     "name": "Hyperloop",
@@ -112,57 +112,57 @@
   {
     "name": "Engineering World Health",
     "url": "https://givingday.cornell.edu/campaigns/cu-engineering-world-health",
-    "members": 6
+    "members": 37
   },
   {
     "name": "CUSail",
     "url": "https://givingday.cornell.edu/campaigns/cu-sail",
-    "members": 32
+    "members": 48
   },
   {
     "name": "AutoBoat",
     "url": "https://givingday.cornell.edu/campaigns/cornell-auto-boat",
-    "members": 72
+    "members": 62
   },
   {
     "name": "Biomedical Device",
     "url": "https://givingday.cornell.edu/campaigns/cornell-biomedical-device",
-    "members": 10
+    "members": 38
   },
   {
     "name": "SensTech",
     "url": "https://givingday.cornell.edu/campaigns/senstech",
-    "members": 16
+    "members": 23
   },
   {
     "name": "Nexus",
     "url": "https://givingday.cornell.edu/campaigns/cornell-nexus",
-    "members": 42
+    "members": 65
   },
   {
     "name": "Seismic Design",
     "url": "https://givingday.cornell.edu/campaigns/cu-eeri-seismic-design",
-    "members": 25
+    "members": 26
   },
   {
     "name": "DEBUT",
     "url": "https://givingday.cornell.edu/campaigns/design-by-biomedical-ug-teams-debut",
-    "members": 51
+    "members": 46
   },
   {
     "name": "Assistive Technologies",
     "url": "https://givingday.cornell.edu/campaigns/cornell-assistive-technologies",
-    "members": 45
+    "members": 50
   },
   {
     "name": "ChemE Car",
     "url": "https://givingday.cornell.edu/campaigns/cu-cheme-car",
-    "members": 63
+    "members": 42
   },
   {
     "name": "Hack4Impact",
     "url": "https://givingday.cornell.edu/campaigns/hack4impact1",
-    "members": 65
+    "members": 57
   },
   {
     "name": "Solar Boat",
@@ -172,6 +172,6 @@
   {
     "name": "EWB",
     "url": "https://givingday.cornell.edu/campaigns/cu-engineers-without-borders",
-    "members": 48
+    "members": 56
   }
 ]
